@@ -252,7 +252,7 @@ C'est lors de cette dernière étape que le bilan de la journée ou celui l'éla
 | __Test(s)__     | Le test 17.1                                                 |
 | __Priorité__    | ❗: Critique                                                  |
 
-| Nom             | S.18 Affichage de la landing page (A14)                      |
+| Nom             | S.18 Gestion des accès (A14)                                 |
 | --------------- | ------------------------------------------------------------ |
 | __Description__ | __En tant qu'utilisateur__ non connecté, je peux voir que les événements publics et la navbar m'affiche que les liens pour aller à l'accueil, voir le descriptif du site, me connecter et m'inscrire. |
 | __Test(s)__     | Le test 18.1                                                 |
@@ -404,7 +404,7 @@ La couleur <span style="color: #3993fa;">#3993fa</span> a été utilisé afin de
     <td></td>
   </tr>
   <tr>
-    <td><b>S.20</b> Création du dépôt Git</td>
+    <td><b>S.19</b> Création du dépôt Git</td>
     <td></td>
     <td></td>
     <td style="background-color: #ffde7a;"></td>
@@ -429,7 +429,7 @@ La couleur <span style="color: #3993fa;">#3993fa</span> a été utilisé afin de
     <td></td>
   </tr>
   <tr>
-    <td><b>S.22</b> Utilisation de Composer</td>
+    <td><b>S.21</b> Utilisation de Composer</td>
     <td></td>
     <td></td>
     <td style="background-color: #ffde7a;"></td>
@@ -454,7 +454,7 @@ La couleur <span style="color: #3993fa;">#3993fa</span> a été utilisé afin de
     <td></td>
   </tr>
   <tr>
-    <td><b>S.21</b> Mise en place de la base de données</td>
+    <td><b>S.20</b> Mise en place de la base de données</td>
     <td></td>
     <td></td>
     <td style="background-color: #3993fa;"></td>
@@ -479,7 +479,7 @@ La couleur <span style="color: #3993fa;">#3993fa</span> a été utilisé afin de
     <td></td>
   </tr>
   <tr>
-  <td><b>S.19</b> Affichage de la landing page</td>
+  <td><b>S.18</b> Gestion des accès</td>
   <td></td>
   <td></td>
   <td></td>
@@ -848,7 +848,7 @@ La couleur <span style="color: #3993fa;">#3993fa</span> a été utilisé afin de
     <td></td>
   </tr>
   <tr>
-    <td><b>S.17</b> Suppression du profil</td>
+    <td><b>S.16</b> Suppression du profil</td>
     <td></td>
     <td></td>
     <td></td>
@@ -873,7 +873,7 @@ La couleur <span style="color: #3993fa;">#3993fa</span> a été utilisé afin de
     <td></td>
   </tr>
   <tr>
-  <td><b>S.16</b> Modification de la page profil</td>
+  <td><b>S.15</b> Modification de la page profil</td>
   <td></td>
   <td></td>
   <td></td>
@@ -898,7 +898,7 @@ La couleur <span style="color: #3993fa;">#3993fa</span> a été utilisé afin de
   <td></td>
   </tr>
   <tr>
-  <td><b>S.18</b> Gestion des événements</td>
+  <td><b>S.17</b> Gestion des événements</td>
   <td></td>
   <td></td>
   <td></td>
@@ -1098,7 +1098,7 @@ La couleur <span style="color: #3993fa;">#3993fa</span> a été utilisé afin de
     <td></td>
     <td style="background-color: #85db53;"></td>
     <td style="background-color: #85db53;"></td>
-    <td></td>
+    <td style="background-color: #85db53;"></td>
     <td></td>
     <td></td>
     <td></td>
@@ -1144,7 +1144,7 @@ La couleur <span style="color: #3993fa;">#3993fa</span> a été utilisé afin de
     <td></td>
   </tr>
   <tr>
-    <td><b>S.20</b> Création du dépôt Git</td>
+    <td><b>S.19</b> Création du dépôt Git</td>
     <td></td>
     <td></td>
     <td style="background-color: #85db53;"></td>
@@ -1169,7 +1169,7 @@ La couleur <span style="color: #3993fa;">#3993fa</span> a été utilisé afin de
     <td></td>
   </tr>
   <tr>
-    <td><b>S.22</b> Utilisation de Composer</td>
+    <td><b>S.21</b> Utilisation de Composer</td>
     <td></td>
     <td></td>
     <td style="background-color: #85db53;"></td>
@@ -1194,7 +1194,7 @@ La couleur <span style="color: #3993fa;">#3993fa</span> a été utilisé afin de
     <td></td>
   </tr>
   <tr>
-    <td><b>S.21</b> Mise en place de la base de données</td>
+    <td><b>S.20</b> Mise en place de la base de données</td>
     <td></td>
     <td></td>
     <td style="background-color: #85db53;"></td>
@@ -1219,7 +1219,7 @@ La couleur <span style="color: #3993fa;">#3993fa</span> a été utilisé afin de
     <td></td>
   </tr>
   <tr>
-  <td><b>S.19</b> Affichage de la landing page</td>
+  <td><b>S.18</b> Affichage de la landing page</td>
   <td></td>
   <td></td>
   <td></td>
@@ -1273,7 +1273,7 @@ La couleur <span style="color: #3993fa;">#3993fa</span> a été utilisé afin de
     <td></td>
     <td></td>
     <td></td>
-    <td></td>
+    <td style="background-color: #85db53;"></td>
     <td></td>
     <td></td>
     <td></td>
@@ -1588,7 +1588,7 @@ La couleur <span style="color: #3993fa;">#3993fa</span> a été utilisé afin de
     <td></td>
   </tr>
   <tr>
-    <td><b>S.17</b> Suppression du profil</td>
+    <td><b>S.16</b> Suppression du profil</td>
     <td></td>
     <td></td>
     <td></td>
@@ -1613,7 +1613,7 @@ La couleur <span style="color: #3993fa;">#3993fa</span> a été utilisé afin de
     <td></td>
   </tr>
   <tr>
-  <td><b>S.15</b> Information de la page profil</td>
+  <td><b>S.15</b> Modification de la page profil</td>
   <td></td>
   <td></td>
   <td></td>
@@ -1638,32 +1638,7 @@ La couleur <span style="color: #3993fa;">#3993fa</span> a été utilisé afin de
   <td></td>
   </tr>
   <tr>
-  <td><b>S.16</b> Modification de la page profil</td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  </tr>
-  <tr>
-    <td><b>S.18</b> Gestion des événements</td>
+    <td><b>S.17</b> Gestion des événements</td>
     <td></td>
     <td></td>
     <td></td>
@@ -1742,7 +1717,7 @@ La couleur <span style="color: #3993fa;">#3993fa</span> a été utilisé afin de
     <td style="background-color: #85db53;"></td>
     <td style="background-color: #85db53;"></td>
     <td style="background-color: #85db53;"></td>
-    <td></td>
+    <td style="background-color: #85db53;"></td>
     <td></td>
     <td></td>
     <td></td>
@@ -1767,7 +1742,7 @@ La couleur <span style="color: #3993fa;">#3993fa</span> a été utilisé afin de
     <td style="background-color: #85db53;"></td>
     <td style="background-color: #85db53;"></td>
     <td style="background-color: #85db53;"></td>
-    <td></td>
+    <td style="background-color: #85db53;"></td>
     <td></td>
     <td></td>
     <td></td>
@@ -1990,21 +1965,21 @@ Les scénarios des tests sont détaillés afin que n'importe quelle personne pui
 |   __User Story__    | S.2 Connexion                                                |
 |    __Situation__    | __Étant donné que__ je suis un utilisateur anonyme _et_ que je possède un compte __quand__ j'arrive sur la page d'accueil du site _et_ que j'ouvre la page de connexion _et_ que je rentre mon email `nicolas.hr@eduge.ch` _et_ que je rentre mon mot de passe `Super2012` _et_ que je clique sur le bouton `CONNEXION` __alors__ je suis redirigé sur la page `Accueil`. |
 | __Résultat obtenu__ | Je clique sur le bouton `CONNEXION` _et_ un message de confirmation apparaît au centre de la page avec le texte `Connexion réussi.` _et_ je suis redirigé sur la page `Accueil`. |
-|     __Statut__      | ❌ KO                                                         |
+|     __Statut__      | ✅ OK                                                         |
 
 |         Nom         | 2.2 Connexion à son compte (connexion avec pseudo, <span style="color:#27c229">données valides</span>) |
 | :-----------------: | ------------------------------------------------------------ |
 |   __User Story__    | S.2 Connexion                                                |
 |    __Situation__    | __Étant donné que__ je suis un utilisateur anonyme _et_ que je possède un compte __quand__ j'arrive sur la page d'accueil du site _et_ que j'ouvre la page de connexion _et_ que je rentre mon pseudo `Nicolas.hr` _et_ que je rentre mon mot de passe `Super2012` _et_ que je clique sur le bouton `CONNEXION` __alors__ je suis redirigé sur la page `Accueil`. |
 | __Résultat obtenu__ | Je clique sur le bouton `CONNEXION` _et_ un message de confirmation apparaît au centre de la page avec le texte `Connexion réussi.` _et_ je suis redirigé sur la page `Accueil`. |
-|     __Statut__      | ❌ KO                                                         |
+|     __Statut__      | ✅ OK                                                         |
 
 |         Nom         | 2.3 Connexion à son compte (connexion avec adresse mail ou pseudo, <span style="color:#e00d13">données invalides</span>) |
 | :-----------------: | ------------------------------------------------------------ |
 |   __User Story__    | S.2 Connexion                                                |
 |    __Situation__    | __Étant donné que__ je suis un utilisateur anonyme _et_ que je possède un compte __quand__ j'arrive sur la page d'accueil du site _et_ que j'ouvre la page de connexion _et_ que je rentre mon email `nicolas.hr@eduge.ch` ou mon pseudo `Nicolas.hr` _et_ que je rentre mon mot de passe `Spuer2012` au lieu de `Super2012` _et_ que je clique sur le bouton `CONNEXION` __alors__ je suis redirigé sur la page `Accueil`. |
 | __Résultat obtenu__ | Je clique sur le bouton `CONNEXION` _et_ un message de confirmation apparaît au centre de la page avec le texte `L'identifiant de connexion ou le mot de passe est faux.` _et_ je reste sur la page `Connexion`. |
-|     __Statut__      | ❌ KO                                                         |
+|     __Statut__      | ✅ OK                                                         |
 
 |         Nom         | 3.1 Création d'un événement (événement public, <span style="color:#27c229">données valides</span>) |
 | :-----------------: | ------------------------------------------------------------ |
@@ -2021,11 +1996,11 @@ Les scénarios des tests sont détaillés afin que n'importe quelle personne pui
 |     __Statut__      | ❌ KO                                                         |
 
 |         Nom         | 3.3 Création d'un événement privé (<span style="color:#27c229">données valides</span>) |
-| :-----------------: | ------------------------------------------------------------ |
-|   __User Story__    | S.3 Création d'un événement +S.4                             |
+| :-----------------: | ------------------------------------------------------------------------------------------- |
+|   __User Story__    | S.3 Création d'un événement +S.4 Création de la liste des invités pour un événement privé   |
 |    __Situation__    | __Etant donné que__ je suis un utilisateur connecté _et_ que l'événement que je veux créer n'existe pas encore __quand__ j'arrive sur la page de création d'événement _et_ que je rentre le nom de l'événement `Mon anniversaire` _et_ que je rentre un descriptif `C'est le groupe pour mon anniversaire.` _et_ que je rentre la localisation `Parc La Grange` _et_ que je  rentre une date de début `01.08.2020` _et_ que je rentre une date de fin `01.08.2020` _et_ que je choisi de mettre l'événement en `privé` _et_ que je choisis un maximum de `3` invités _et_ que je choisis une image _et_ que je clique sur le bouton `CRÉER UN ÉVÉNEMENT` _et_  une liste des utilisateurs apparaît et me permet de choisir les `3` invités de mon événement _et_ je choisis mes invités `Jean`, `Albert` et `John`  _et_ j'appuie sur le bouton `INVITER` __alors__ mon événement est créé avec l'image choisis _et_ je suis redirigé sur la page `Accueil`. |
 | __Résultat obtenu__ | Je clique sur le bouton `CRÉER UN ÉVÉNEMENT` _et_ un message de confirmation apparaît au centre de la page avec le texte `L'événement "Mon anniversaire" a bien été créé.` _et_ je suis redirigé sur la page  sur la page `Accueil`. |
-|     __Statut__      | ❌ KO                                                         |
+|     __Statut__      | ❌ KO                                                                                       |
 
 |         Nom         | 3.4 Création d'un événement privé sans image (<span style="color:#27c229">données valides</span>) |
 | :-----------------: | ------------------------------------------------------------ |
@@ -2077,11 +2052,11 @@ Les scénarios des tests sont détaillés afin que n'importe quelle personne pui
 | 1.2            | ❌                                                    | ✅                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                     |
 | 1.3            | ❌                                                    | ✅                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                     |
 | 1.4            | ❌                                                    | ✅                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                     |
-| 1.5            | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                     |
-| 1.6            | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                     |
-| 2.1            | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                     |
-| 2.2            | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                     |
-| 2.3            | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                     |
+| 1.5            | ❌                                                    | ✅                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                     |
+| 1.6            | ❌                                                    | ✅                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                     |
+| 2.1            | ❌                                                    | ✅                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                     |
+| 2.2            | ❌                                                    | ✅                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                     |
+| 2.3            | ❌                                                    | ✅                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                     |
 | 3.1            | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                     |
 | 3.2            | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                     |
 | 3.3            | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                     |

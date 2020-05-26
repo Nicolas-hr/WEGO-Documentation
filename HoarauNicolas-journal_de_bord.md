@@ -73,7 +73,7 @@ __18h10:__ Je finis ma journée.
 
 ### Bilan
 
-Ma première journée de TPI s'est terminée, j'avais prévu de faire trop de tâches aujourd'hui alors j'ai commencé à prendre su retard sur mon planning donc demain je vais finir de rédiger les scénarios. Durant la journée, j'ai rencontré des problèmes de compréhension avec l'énoncé, mais j'ai pu répondre à mes interrogations grâce aux deux entretiens faits avec Mme Mota.
+Ma première journée de TPI s'est terminée, j'avais prévu de faire trop de tâches aujourd'hui alors j'ai commencé à prendre du retard sur mon planning donc demain je vais finir de rédiger les scénarios. Durant la journée, j'ai rencontré des problèmes de compréhension avec l'énoncé, mais j'ai pu répondre à mes interrogations grâce aux deux entretiens faits avec Mme Mota.
 
 ---
 
@@ -81,7 +81,7 @@ Ma première journée de TPI s'est terminée, j'avais prévu de faire trop de t�
 
 ### Objectifs
 
-Les objectifs de la journée sont finir de rédiger les scénarios, créer le dépôt Git, l'implémentation de la base de données et la configuration de Composer.
+Les objectifs de la journée sont finir de rédiger les scénarios, créer le dépôt Git, l'implémentation de la base de données, la configuration de Composer, de développer l'inscription et la connexion au site.
 
 ### Déroulement
 
@@ -117,12 +117,14 @@ __12h40:__ Je prends ma pause du midi.
 
 __13h25:__ Je finis ma pause midi créer un deuxième dépôt Git afin d'en avoir un spécialement pour la documentation et un autre spécialement pour le code source.
 
-__13h40:__ Je finis la séparation et je commence à développer l'inscription.
+__13h40:__ Je finis de mettre en place les deux dépôts Git et je commence à développer l'inscription.
 
-__16h10:__ Je finis de développer et de tester l'inscription.
+__16h10:__ Je finis de développer et de tester l'inscription et je commence à développer la connexion au site.
+
+__17h00:__ Fin de journée.
 
 ### Bilan
 
-
+Ajourd'hui j'ai pu faire une grande partie de ce que je souhaitais. J'ai fais le choix de ne pas faire tous les scénarios de tests d'un coup mais quelque scénario le matin et en fin de journée.
 
 ---

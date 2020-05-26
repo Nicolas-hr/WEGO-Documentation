@@ -53,9 +53,9 @@ elle marque un événement || la fin d'un cycle (événement , profil, etc)
 
 elle m'a aidé a corriger mes scénarios de tests.
 
-[❌] Faire un git juste avec la doc __SANS__ le code
+[✔️] Faire un git juste avec la doc __SANS__ le code
 
-[❌] Séparer en 2 GIT privé:
+[✔️] Séparer en 2 GIT privé:
 
 * un pour le code source juste avec Mme Mota
 *  un pour la doc avec les experts et Mme Mota
