@@ -115,7 +115,11 @@ __12h30:__ Correction des scénarios rédigé.
 
 __12h40:__ Je prends ma pause du midi.
 
-__13h25:__ Je finis ma pause midi créer un deuxième dépôt Git pour la documentation et je commence à développer l'inscription.
+__13h25:__ Je finis ma pause midi créer un deuxième dépôt Git afin d'en avoir un spécialement pour la documentation et un autre spécialement pour le code source.
+
+__13h40:__ Je finis la séparation et je commence à développer l'inscription.
+
+__16h10:__ Je finis de développer et de tester l'inscription.
 
 ### Bilan
 
