@@ -58,12 +58,12 @@ elle m'a aidé a corriger mes scénarios de tests.
 [✔️] Séparer en 2 GIT privé:
 
 * un pour le code source juste avec Mme Mota
-*  un pour la doc avec les experts et Mme Mota
+* un pour la doc avec les experts et Mme Mota
 
 [❌] Mettre un README afin d'expliquer comment installer le projet.
 
 
-[❔] Question : Faut-il ajouter directement tous les utilisateurs d'un événements privé ou on peut en les ajouter en ajouter une partie et ajuter la suite après avoir créer l'événement ?
+[❔] Question : Faut-il ajouter directement tous les utilisateurs d'un événements privé ou on peut en les ajouter en ajouter une partie et ajouter la suite après avoir créer l'événement ?
 
 > Réponse: Il faut ajouter tous les invités lors de la création de l'événement.
 
@@ -74,9 +74,18 @@ Choix: ne pas rédiger tous les scénarios tests d'un coup mais les rédiger au 
 
 ## Mercredi 27 mai
 
-❗❗ 11h00 entretien avec Mme Mota
+❗❗ 11h30 entretien avec Mme Mota
+
+On est revenu sur la question d'hier et pour finir on a chabbgé de décision et on peut ne pas mettre tous les utilsiateurs d'un coup.
+
+Je demande pour ajouter une colone `salt` dans la table user afin de mieux sécuriser les mots de passe.
+
+❗❗ 11h55 entretien avec Mme Mota
 
 
+## Vendredi 29 juin rendre une doc intermédiaire samedi au plus tard.
+
+Rédiger la doc utilisateur
 
 ## Vendredi 5 juin
 

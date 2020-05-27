@@ -1,3 +1,7 @@
+---
+
+---
+
 ## Lundi 25 Mai 2020
 
 ### Objectifs
@@ -63,7 +67,7 @@ __15h15:__ Je commence à rédiger les scénarios de tests sous le format suivan
 > |   __User Story__    | S.<n° de la story>                                           |
 > |    __Situation__    | _Description de tout le test_                                |
 > | __Résultat obtenu__ | _Résultat du test_                                           |
-> |     __Statut__      | ❌ KO / ✅ OK                                               |
+> |     __Statut__      | ❌ KO / ✔ OK                                                |
 
 __16h00:__ Entretien avec Mme Mota.
 
@@ -81,7 +85,7 @@ Ma première journée de TPI s'est terminée, j'avais prévu de faire trop de t�
 
 ### Objectifs
 
-Les objectifs de la journée sont finir de rédiger les scénarios, créer le dépôt Git, l'implémentation de la base de données, la configuration de Composer, de développer l'inscription et la connexion au site.
+Les objectifs de la journée sont finir de rédiger les scénarios, créer le dépôt Git, l'implémentation de la base de données, la configuration de Composer, de développer l'inscription, la connexion et la gestion des accès au site .
 
 ### Déroulement
 
@@ -115,7 +119,7 @@ __12h30:__ Correction des scénarios rédigé.
 
 __12h40:__ Je prends ma pause du midi.
 
-__13h25:__ Je finis ma pause midi créer un deuxième dépôt Git afin d'en avoir un spécialement pour la documentation et un autre spécialement pour le code source.
+__13h25:__ Je finis ma pause midi et je  créer un deuxième dépôt Git afin d'en avoir un spécialement pour la documentation et un autre spécialement pour le code source.
 
 __13h40:__ Je finis de mettre en place les deux dépôts Git et je commence à développer l'inscription.
 
@@ -125,6 +129,51 @@ __17h00:__ Fin de journée.
 
 ### Bilan
 
-Ajourd'hui j'ai pu faire une grande partie de ce que je souhaitais. J'ai fais le choix de ne pas faire tous les scénarios de tests d'un coup mais quelque scénario le matin et en fin de journée.
+Ajourd'hui j'ai pu faire une grande partie de ce que je souhaitais, malheureusement je n'ai pas eu le temps faire la gestion des accès. J'ai fais le choix de ne pas faire tous les scénarios de tests d'un coup mais quelque scénario le matin et en fin de journée.
+
+---
+
+## Mercredi 27 Mai 2020
+
+### Objectifs
+
+Les objectifs de la journée sont faire la gestion des accès, la création d'événement la création de la liste d'invités pour un événement privé, l'affichage des événements et la page qui contient les informations d'un événement.
+
+### Déroulement
+
+__08h00:__ Je commence ma journée en rédigeant les scénarios pour la gestion des accès, pour l'affichage des événements et pour la page qui contients les informations d'un événement.
+
+__08h30:__ Je finis de rédiger les scénarios prévus et je commence développer la gestion des accèes 
+
+__9h00:__ Je finis de déverlopper la gestion des accès et je commence à développer la création d'événement.
+
+__11h30:__ J'ai un entretien avec Mme Mota.
+
+Mme Mota est revenue sur la question :
+❔ Faut-il ajouter directement tous les utilisateurs d'un événements privé ou on peut en les ajouter en ajouter une partie et ajouter la suite après avoir créer l'événement ?
+
+En me disant qu'il faudrait gérer le nombre maximal de personnes invités à l'événement privé de la même manière que les événements publiques c'est-à-dire qu'on est pas obligé d'inviter toutes les personnes dès la création de l'événement.
+
+__11h55:__ Fin de l'entretien avec Mme Mota.
+
+__12h10:__ Je prends ma pause midi.
+
+__13h00:__ Je fini ma pause midi.
+
+__14h50:__ Je mets en pause le développement de la création d'événement pour ajouter une colonne pour le salt dans la modifier la base de données afin d'avoir une meilleure sécurité dans le site.
+
+__15h00:__ Je finis d'ajouter la colonne dans la base de données. Je vais l'implémenter dans l'inscription et pour la connexion.
+
+__15h20:__ Je finis d'implémenter le salt pour l'inscription et la connexion et je reprend la création d'événement.
+
+__15h50:__ Je finis de développer et de tester la création d'événement publique.
+
+__16h00:__ Je commence à développer la création de la liste des invités pour un événements privés.
+
+__18h00:__ Je finis ma journée.
+
+### Bilan
+
+Aujourd'hui j'ai pu faire que la moitié de ce que je souhaitais... Je n'ai pas pu finir la création de la liste des invités à un événement privé car lorsque ma modal pour ajouter des invités appraît, les données se sont déjà envoyées. Je n'ai pas pu faire l'affichage des événements non plus donc je vais finir ces 2 tâches pour demain. Mais 
 
 ---
