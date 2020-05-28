@@ -1,7 +1,3 @@
----
-
----
-
 ## Lundi 25 Mai 2020
 
 ### Objectifs
@@ -47,7 +43,7 @@ Lors de l'entretien, on va vérifier si la syntaxe de mon backlog est correcte, 
 ❔ Je ne comprend pas ce qu'est la "zone" cité dans le point A19 15, pourriez-vous m'aider comprendre ?
 > Réponse: La zone est dans la page sur laquelle on peut gérer ses événements.
 
-❔ Est-ce que je dois envoyer un mail aux utilsateurs afin de les prévenir qu'ils sont invités à un événement privé ?
+❔ Est-ce que je dois envoyer un mail aux utilisateurs afin de les prévenir qu'ils sont invités à un événement privé ?
 > Réponse: Il ne faut  pas envoyer de mail à ce moment-là, c'est seulement lors de l'inscription d'un événement.
 
 Après l'entretien, je vais devoir rajouter des tâches dans mon backlog, car je ne recouvre pas toutes les demandes du cahier des charges.
@@ -129,7 +125,7 @@ __17h00:__ Fin de journée.
 
 ### Bilan
 
-Ajourd'hui j'ai pu faire une grande partie de ce que je souhaitais, malheureusement je n'ai pas eu le temps faire la gestion des accès. J'ai fais le choix de ne pas faire tous les scénarios de tests d'un coup mais quelque scénario le matin et en fin de journée.
+Aujourd'hui j'ai pu faire une grande partie de ce que je souhaitais, malheureusement je n'ai pas eu le temps faire la gestion des accès. J'ai fais le choix de ne pas faire tous les scénarios de tests d'un coup mais quelque scénario le matin et en fin de journée.
 
 ---
 
@@ -141,11 +137,11 @@ Les objectifs de la journée sont faire la gestion des accès, la création d'é
 
 ### Déroulement
 
-__08h00:__ Je commence ma journée en rédigeant les scénarios pour la gestion des accès, pour l'affichage des événements et pour la page qui contients les informations d'un événement.
+__08h00:__ Je commence ma journée en rédigeant les scénarios pour la gestion des accès, pour l'affichage des événements et pour la page qui contient les informations d'un événement.
 
-__08h30:__ Je finis de rédiger les scénarios prévus et je commence développer la gestion des accèes 
+__08h30:__ Je finis de rédiger les scénarios prévus et je commence développer la gestion des accès 
 
-__9h00:__ Je finis de déverlopper la gestion des accès et je commence à développer la création d'événement.
+__9h00:__ Je finis de développer la gestion des accès et je commence à développer la création d'événement.
 
 __11h30:__ J'ai un entretien avec Mme Mota.
 
@@ -160,11 +156,11 @@ __12h10:__ Je prends ma pause midi.
 
 __13h00:__ Je fini ma pause midi.
 
-__14h50:__ Je mets en pause le développement de la création d'événement pour ajouter une colonne pour le salt dans la modifier la base de données afin d'avoir une meilleure sécurité dans le site.
+__14h50:__ Je mets en pause le développement de la création d'événement pour ajouter une colonne pour le _salt_ dans la modifier la base de données afin d'avoir une meilleure sécurité dans le site.
 
 __15h00:__ Je finis d'ajouter la colonne dans la base de données. Je vais l'implémenter dans l'inscription et pour la connexion.
 
-__15h20:__ Je finis d'implémenter le salt pour l'inscription et la connexion et je reprend la création d'événement.
+__15h20:__ Je finis d'implémenter le _salt_ pour l'inscription et la connexion et je reprend la création d'événement.
 
 __15h50:__ Je finis de développer et de tester la création d'événement publique.
 
@@ -174,6 +170,52 @@ __18h00:__ Je finis ma journée.
 
 ### Bilan
 
-Aujourd'hui j'ai pu faire que la moitié de ce que je souhaitais... Je n'ai pas pu finir la création de la liste des invités à un événement privé car lorsque ma modal pour ajouter des invités appraît, les données se sont déjà envoyées. Je n'ai pas pu faire l'affichage des événements non plus donc je vais finir ces 2 tâches pour demain. Mais 
+Aujourd'hui j'ai pu faire que la moitié de ce que je souhaitais car le style du site m'a pris beaucoup plus de temps que ce que j'avais prévu. Je n'ai pas pu finir la création de la liste des invités à un événement privé car lorsque ma modal pour ajouter des invités apparaît, les données se sont déjà envoyées. Je n'ai pas pu faire l'affichage des événements non plus donc je vais finir ces 2 tâches pour demain. 
+
+---
+
+## Jeudi 28 Mai 2020
+
+### Objectifs
+
+Les objectifs de la journée sont finir la création de la liste pour des invités à un événement privé, faire l'affichage des événements, faire la page qui contient les informations de l'événement et l'inscription à un événement ouvert.
+
+### Déroulement
+
+__08h00:__ Je commence ma journée en travaillant sur la création de la liste des invités pour un événements privé.
+
+__9h00:__ J'ai un entretien avec mes experts.
+
+__09h10:__ Fin de entretien avec mes experts.
+
+__10h20:__ Je finis la création de la liste d'invités et je commence l'affichage des événements.
+
+### Bilan
+
+Avec Tanguy Cavagna (un camarde de classe) on a réussis à résoudre le problème avec la liste d'invités en utilisant un _fetch()_
+
+``` javascript
+return fetch("url", {
+  method: '',
+  headers: {
+    'Accept': '',
+    'Content-Type': ''
+  }
+}).then(response => response.json());
+```
+
+Au lieu d'un appel _ajax_
+
+``` javascript
+$.ajax({
+  type: "method",
+  url: "url",
+  data: "data",
+  dataType: "dataType",
+  success: function (response) {}
+});
+```
+
+Car avec un appel ajax on ne peut pas mettre le _success:_ en asynchrone alors qu'avec un _fetch_ on peut le mettre en asynchrone.
 
 ---
