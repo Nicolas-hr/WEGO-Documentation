@@ -37,7 +37,7 @@ Chaque _user story_ est rédigé sous le format suivant:
 __10h45:__ Je finis de rédiger le backlog et je commence à rédiger mon planning.
 Pour le planning prévisionnel et le planning effectif, j'ai utilisé la couleur <span style="color:#3993fa">#3993fa</span> afin de marquer les jalons.
 
-__11h30:__ J'ai un entretien avec Mme Mota afin de voir si ma matinée s'est bien déroulée et j'ai pu lui demander pour le point A19.
+__11h30:__ J'ai un entretien avec Mme Mota afin de voir mon avancement. afin de voir si ma matinée s'est bien déroulée et j'ai pu lui demander pour le point A19.
 Lors de l'entretien, on va vérifier si la syntaxe de mon backlog est correcte, répondre aux 2 questions que je me suis posé durant la matinée.
 
 ❔ Je ne comprend pas ce qu'est la "zone" cité dans le point A19 15, pourriez-vous m'aider comprendre ?
@@ -99,7 +99,7 @@ __9h55:__ Je finis initialisation du dépôt Git. Et je commence à mettre en pl
 
 __10h00:__ Je finis d'installer Composer et ses dépendances et je reprends mon travail sur les scénarios.
 
-__11h00:__ J'ai un entretien avec Mme Mota.
+__11h00:__ J'ai un entretien avec Mme Mota afin de voir mon avancement..
 
 Durant cet entretien j'ai demandé à Mme Mota :
 
@@ -143,7 +143,7 @@ __08h30:__ Je finis de rédiger les scénarios prévus et je commence développe
 
 __9h00:__ Je finis de développer la gestion des accès et je commence à développer la création d'événement.
 
-__11h30:__ J'ai un entretien avec Mme Mota.
+__11h30:__ J'ai un entretien avec Mme Mota afin de voir mon avancement..
 
 Mme Mota est revenue sur la question :
 ❔ Faut-il ajouter directement tous les utilisateurs d'un événements privé ou on peut en les ajouter en ajouter une partie et ajouter la suite après avoir créer l'événement ?
@@ -190,7 +190,23 @@ __09h10:__ Fin de entretien avec mes experts.
 
 __10h20:__ Je finis la création de la liste d'invités et je commence l'affichage des événements.
 
+__11h00:__ J'ai un entretien avec Mme Mota afin de voir mon avancement.
+
+__11h20:__ Fin de l'entretien avec Mme Mota et je reprends l'affichage des événements.
+
+__12h35:__ Je finis l'affichage des événements et en parallèle j'ai finis l'affichage des information de l'événement.
+
+__12h40:__ Je prends ma pause midi.
+
+__14h05:__ Fin de ma pause midi et je reprend mon travail sur inscription à un événement ouvert.
+
+__15h35:__ Je finis la logique de l'inscription à un événement ouvert.
+
+__17h25:__ Je finis ma journée.
+
 ### Bilan
+
+Aujourd'hui j'ai presque fait tout ce que j'avais prévu.
 
 Avec Tanguy Cavagna (un camarde de classe) on a réussis à résoudre le problème avec la liste d'invités en utilisant un _fetch()_
 
@@ -217,5 +233,7 @@ $.ajax({
 ```
 
 Car avec un appel ajax on ne peut pas mettre le _success:_ en asynchrone alors qu'avec un _fetch_ on peut le mettre en asynchrone.
+
+Mais je n'ai pas pu finir à 100% l'inscription à un événement publique, j'ai réussi à faire toutes la logique mais j'ai pas réussi à faire un style qui fonctionne une fois qe'on c'est iinscrit à plusieurs événements, donc je vais finir cette tâche demain.
 
 ---

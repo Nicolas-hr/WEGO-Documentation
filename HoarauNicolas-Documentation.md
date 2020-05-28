@@ -1327,7 +1327,7 @@ La couleur <span style="color: #3993fa;">#3993fa</span> a été utilisé afin de
   <td></td>
   <td></td>
   <td style="background-color: #85db53;"></td>
-  <td></td>
+  <td style="background-color: #85db53;"></td>
   <td></td>
   <td></td>
   <td></td>
@@ -1352,7 +1352,7 @@ La couleur <span style="color: #3993fa;">#3993fa</span> a été utilisé afin de
     <td></td>
     <td></td>
     <td></td>
-    <td></td>
+    <td style="background-color: #85db53;"></td>
     <td></td>
     <td></td>
     <td></td>
@@ -1371,28 +1371,28 @@ La couleur <span style="color: #3993fa;">#3993fa</span> a été utilisé afin de
   </tr>
   <tr>
   <td><b>S.13</b> À propos de l'événement</td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td style="background-color: #85db53;"></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
   </tr>
   <tr>
     <td><b>S.5</b> Inscription à un événement ouvert</td>
@@ -1403,7 +1403,7 @@ La couleur <span style="color: #3993fa;">#3993fa</span> a été utilisé afin de
     <td></td>
     <td></td>
     <td></td>
-    <td></td>
+    <td style="background-color: #85db53;"></td>
     <td></td>
     <td></td>
     <td></td>
@@ -1719,8 +1719,8 @@ La couleur <span style="color: #3993fa;">#3993fa</span> a été utilisé afin de
     <td style="background-color: #85db53;"></td>
     <td style="background-color: #85db53;"></td>
     <td style="background-color: #85db53;"></td>
-    <td></td>
-    <td></td>
+    <td style="background-color: #85db53;"></td>
+    <td style="background-color: #85db53;"></td>
     <td></td>
     <td></td>
     <td></td>
@@ -1744,9 +1744,9 @@ La couleur <span style="color: #3993fa;">#3993fa</span> a été utilisé afin de
     <td style="background-color: #85db53;"></td>
     <td style="background-color: #85db53;"></td>
     <td style="background-color: #85db53;"></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td style="background-color: #85db53;"></td>
+    <td style="background-color: #85db53;"></td>
+    <td style="background-color: #85db53;"></td>
     <td></td>
     <td></td>
     <td></td>
@@ -1830,8 +1830,11 @@ __invites__
 
 #### Classes
 
-__WE GO\public\php\DatabaseController__
+__WE GO\public\php\DatabaseController.php__
 Cette classe me permet de déclarer ma base de données _MySQL_ en _Singleton_.
+
+__WE GO\public\php\ExtendedPdo.php__
+Cette classe me permet de faire des transactions en parallèles.
 
 #### Environnement
 
@@ -1985,44 +1988,44 @@ Les scénarios des tests sont détaillés afin que n'importe quelle personne pui
 |         Nom         | 3.1 Création d'un événement (événement public, <span style="color:#27c229">données valides</span>) |
 | :-----------------: | ------------------------------------------------------------ |
 |   __User Story__    | S.3 Création d'un événement                                  |
-|    __Situation__    | __Etant donné que__ je suis un utilisateur connecté _et_ que l'événement que je veux crée n'existe pas encore __quand__ j'arrive sur la page de création d'événement _et_ que je rentre le nom de l'événement `Rentrée techniciens` _et_ que je rentre un descriptif `C'est le jour de la rentrée pour les technicien ES 2020/2021.` _et_ que je rentre la localisation `10,Ch. Gérard de Ternier, 1213 Petit-Lancy` _et_ que je  rentre une date de début `24.08.2020` _et_ que je rentre une date de fin `24.08.2020` _et_ que je choisi de mettre l'événement en `public` _et_ que je choisis un maximum de `12` participants et que je choisis une image qu'il y a sur mon ordinateur _et_ que je clique sur le bouton `CRÉER UN ÉVÉNEMENT` __alors__ mon événement se créé avec les informations données _et_ je suis redirigé sur la page `Accueil`. |
+|    __Situation__    | __Etant donné que__ je suis un utilisateur connecté _et_ que l'événement que je veux crée n'existe pas encore __quand__ j'arrive sur la page de création d'événement _et_ que je rentre le nom de l'événement `Rentrée techniciens` _et_ que je rentre un descriptif `C'est le jour de la rentrée pour les technicien ES 2020/2021.` _et_ que je rentre la localisation `10,Ch. Gérard de Ternier, 1213 Petit-Lancy` _et_ que je rentre une date de début `24.08.2020` _et_ que rentre `9:00` en heure de début je _et_ que je rentre une date de fin `24.08.2020` _et_ que je choisis `16:15` en heure de fin _et_ que je choisi de mettre l'événement en `public` _et_ que je choisis un maximum de `12` participants et que je choisis une image qu'il y a sur mon ordinateur _et_ que je clique sur le bouton `CRÉER UN ÉVÉNEMENT` __alors__ mon événement se créé avec les informations données _et_ je suis redirigé sur la page `Accueil`. |
 | __Résultat obtenu__ | Je clique sur le bouton `CRÉER UN ÉVÉNEMENT` _et_ un message de confirmation apparaît au centre de la page avec le texte `L'événement "Rentrée techniciens" a bien été créé.` _et_ je suis redirigé sur la page  sur la page `Accueil`. |
 |     __Statut__      | ✔ OK                                                         |
 
 |         Nom         | 3.2 Création d'un événement (événement public sans image, <span style="color:#27c229">données valides</span>) |
 | :-----------------: | ------------------------------------------------------------ |
 |   __User Story__    | S.3 Création d'un événement                                  |
-|    __Situation__    | __Etant donné que__ je suis un utilisateur connecté _et_ que l'événement que je veux crée n'existe pas encore __quand__ j'arrive sur la page de création d'événement _et_ que je rentre le nom de l'événement `Rentrée techniciens` _et_ que je rentre un descriptif `C'est le jour de la rentrée pour les technicien ES 2020/2021.` _et_ que je rentre la localisation `10,Ch. Gérard de Ternier, 1213 Petit-Lancy` _et_ que je  rentre une date de début `24.08.2020` _et_ que je rentre une date de fin `24.08.2020` _et_ que je choisi de mettre l'événement en `public` _et_ que je choisis un maximum de `12` invités _et_ que je ne choisis pas d'image _et_ que je clique sur le bouton `CRÉER UN ÉVÉNEMENT` __alors__ mon événement est créé avec une image par défaut _et_ je suis redirigé sur la page `Accueil`. |
+|    __Situation__    | __Etant donné que__ je suis un utilisateur connecté _et_ que l'événement que je veux crée n'existe pas encore __quand__ j'arrive sur la page de création d'événement _et_ que je rentre le nom de l'événement `Rentrée techniciens` _et_ que je rentre un descriptif `C'est le jour de la rentrée pour les technicien ES 2020/2021.` _et_ que je rentre la localisation `10,Ch. Gérard de Ternier, 1213 Petit-Lancy` _et_ que je rentre une date de début `24.08.2020` _et_ que rentre `9:00` en heure de début _et_ que je rentre une date de fin `24.08.2020` _et_ que je choisis `16:15` en heure de fin _et_ que je choisi de mettre l'événement en `public` _et_ que je choisis un maximum de `12` invités _et_ que je ne choisis pas d'image _et_ que je clique sur le bouton `CRÉER UN ÉVÉNEMENT` __alors__ mon événement est créé avec une image par défaut _et_ je suis redirigé sur la page `Accueil`. |
 | __Résultat obtenu__ | Je clique sur le bouton `CRÉER UN ÉVÉNEMENT` _et_ un message de confirmation apparaît au centre de la page avec le texte `L'événement "Rentrée techniciens" a bien été créé.` _et_ je suis redirigé sur la page  sur la page `Accueil`. |
 |     __Statut__      | ✔ OK                                                         |
 
 |         Nom         | 3.3 Création d'un événement privé (<span style="color:#27c229">données valides</span>) |
-| :-----------------: | ------------------------------------------------------------------------------------------- |
-|   __User Story__    | S.3 Création d'un événement + S.4 Création de la liste des invités pour un événement privé  |
-|    __Situation__    | __Etant donné que__ je suis un utilisateur connecté _et_ que l'événement que je veux créer n'existe pas encore __quand__ j'arrive sur la page de création d'événement _et_ que je rentre le nom de l'événement `Mon anniversaire` _et_ que je rentre un descriptif `C'est le groupe pour mon anniversaire.` _et_ que je rentre la localisation `Parc La Grange` _et_ que je  rentre une date de début `01.08.2020` _et_ que je rentre une date de fin `01.08.2020` _et_ que je choisi de mettre l'événement en `privé` _et_ que je choisis un maximum de `3` invités _et_ que je choisis une image _et_ que je clique sur le bouton `CRÉER UN ÉVÉNEMENT` _et_  une liste des utilisateurs apparaît et me permet de choisir les `3` invités de mon événement _et_ je choisis mes invités `Jean`, `Albert` et `John`  _et_ j'appuie sur le bouton `INVITER` __alors__ mon événement est créé avec l'image choisis _et_ je suis redirigé sur la page `Accueil`. |
+| :-----------------: | ------------------------------------------------------------ |
+|   __User Story__    | S.3 Création d'un événement + S.4 Création de la liste des invités pour un événement privé |
+|    __Situation__    | __Etant donné que__ je suis un utilisateur connecté _et_ que l'événement que je veux créer n'existe pas encore __quand__ j'arrive sur la page de création d'événement _et_ que je rentre le nom de l'événement `Mon anniversaire` _et_ que je rentre un descriptif `C'est le groupe pour mon anniversaire.` _et_ que je rentre la localisation `Parc La Grange` _et_ que je rentre une date de début `01.08.2020` _et_ que je rentre `14:00` en heure de début _et_ que je rentre une date de fin `02.08.2020` _et_ que je rentre `02:00` en date de fin _et_ que je choisi de mettre l'événement en `privé` _et_ que je choisis un maximum de `3` invités _et_ que je choisis une image _et_ que je clique sur le bouton `CRÉER UN ÉVÉNEMENT` _et_  une liste des utilisateurs apparaît et me permet de choisir les `3` invités de mon événement _et_ je choisis mes invités `Jean`, `Albert` et `John`  _et_ j'appuie sur le bouton `INVITER` __alors__ mon événement est créé avec l'image choisis _et_ je suis redirigé sur la page `Accueil`. |
 | __Résultat obtenu__ | Je clique sur le bouton `CRÉER UN ÉVÉNEMENT` _et_ un message de confirmation apparaît au centre de la page avec le texte `L'événement "Mon anniversaire" a bien été créé.` _et_ je suis redirigé sur la page  sur la page `Accueil`. |
-|     __Statut__      | ❌ KO                                                                                       |
+|     __Statut__      | ✔ OK                                                         |
 
 |         Nom         | 3.4 Création d'un événement privé sans image (<span style="color:#27c229">données valides</span>) |
 | :-----------------: | ------------------------------------------------------------ |
 |   __User Story__    | S.3 Création d'un événement + S.4                            |
-|    __Situation__    | __Etant donné que__ je suis un utilisateur connecté _et_ que l'événement que je veux créer n'existe pas encore __quand__ j'arrive sur la page de création d'événement _et_ que je rentre le nom de l'événement `Mon anniversaire` _et_ que je rentre un descriptif `C'est le groupe pour mon anniversaire.` _et_ que je rentre la localisation `Parc La Grange` _et_ que je  rentre une date de début `01.08.2020` _et_ que je rentre une date de fin `01.08.2020` _et_ que je choisi de mettre l'événement en `privé` _et_ que je choisis un maximum de `3` invités _et_ que je ne choisis pas d'image _et_ que je clique sur le bouton `CRÉER UN ÉVÉNEMENT` _et_  une liste des utilisateurs apparaît _et_ me permet de choisir les `3` invités de mon événement _et_ je choisis mes invités `Jean`, `Albert` et `John`  _et_ j'appuie sur le bouton `INVITER` __alors__ mon événement est créé avec une image par défaut _et_ je suis redirigé sur la page `Accueil`. |
+|    __Situation__    | __Etant donné que__ je suis un utilisateur connecté _et_ que l'événement que je veux créer n'existe pas encore __quand__ j'arrive sur la page de création d'événement _et_ que je rentre le nom de l'événement `Mon anniversaire` _et_ que je rentre un descriptif `C'est le groupe pour mon anniversaire.` _et_ que je rentre la localisation `Parc La Grange` _et_ que je rentre une date de début `01.08.2020` _et_ que je rentre `14:00` en heure de début _et_ que je rentre une date de fin `02.08.2020` _et_ que je rentre `02:00` en date de fin _et_ que je choisi de mettre l'événement en `privé` _et_ que je choisis un maximum de `3` invités _et_ que je ne choisis pas d'image _et_ que je clique sur le bouton `CRÉER UN ÉVÉNEMENT` _et_  une liste des utilisateurs apparaît _et_ me permet de choisir les `3` invités de mon événement _et_ je choisis mes invités `Jean`, `Albert` et `John`  _et_ j'appuie sur le bouton `INVITER` __alors__ mon événement est créé avec une image par défaut _et_ je suis redirigé sur la page `Accueil`. |
 | __Résultat obtenu__ | Je clique sur le bouton `CRÉER UN ÉVÉNEMENT` _et_ un message de confirmation apparaît au centre de la page avec le texte `L'événement "Mon anniversaire" a bien été créé.` _et_ je suis redirigé sur la page  sur la page `Accueil`. |
 |     __Statut__      | ✔ OK                                                         |
 
 |         Nom         | 3.5 Création d'un événement (date, <span style="color:#e00d13">données invalides</span>) |
 | :-----------------: | ------------------------------------------------------------ |
 |   __User Story__    | S.3 Création d'un événement                                  |
-|    __Situation__    | __Etant donné que__ je suis un utilisateur connecté _et_ que l'événement que je veux crée n'existe pas encore __quand__ j'arrive sur la page de création d'événement _et_ que je rentre le nom de l'événement `Rentrée techniciens` _et_ que je rentre un descriptif `C'est le jour de la rentrée pour les technicien ES 2020/2021.` _et_ que je rentre la localisation `10,Ch. Gérard de Ternier, 1213 Petit-Lancy` _et_ que je  rentre une date de début `24.08.2020` _et_ que je rentre une date de fin `09.05.2020` _et_ que je choisi de mettre l'événement en `public` _et_ que je choisis un maximum de `12` participants _et_ que je ne choisis pas d'image _et_ que je clique sur le bouton `CRÉER UN ÉVÉNEMENT` __alors__ je reste sur la page de création d'événement. |
+|    __Situation__    | __Etant donné que__ je suis un utilisateur connecté _et_ que l'événement que je veux crée n'existe pas encore __quand__ j'arrive sur la page de création d'événement _et_ que je rentre le nom de l'événement `Rentrée techniciens` _et_ que je rentre un descriptif `C'est le jour de la rentrée pour les technicien ES 2020/2021.` _et_ que je rentre la localisation `10,Ch. Gérard de Ternier, 1213 Petit-Lancy` _et_ que je rentre une date de début `24.08.2020` _et_ que rentre `9:00` en heure de début _et_ que je rentre une date de fin `09.05.2020` _et_ que je choisis `16:15` en heure de fin _et_ que je choisi de mettre l'événement en `public` _et_ que je choisis un maximum de `12` participants _et_ que je ne choisis pas d'image _et_ que je clique sur le bouton `CRÉER UN ÉVÉNEMENT` __alors__ je reste sur la page de création d'événement. |
 | __Résultat obtenu__ | Je clique sur le bouton `CRÉER UN ÉVÉNEMENT` _et_ un message d'erreur apparaît au centre de la page avec le texte `L'événement ne peut pas se terminer avant s'avoir commencé.` _et_ je reste sur la page `Créer un événement`. |
 |     __Statut__      | ✔ OK                                                         |
 
 |         Nom         | 3.6 Création d'un événement (date, <span style="color:#e00d13">données invalides</span>) |
 | :-----------------: | ------------------------------------------------------------ |
 |   __User Story__    | S.3 Création d'un événement                                  |
-|    __Situation__    | __Etant donné que__ je suis un utilisateur connecté _et_ que l'événement que je veux crée n'existe pas encore __quand__ j'arrive sur la page de création d'événement _et_ que je rentre le nom de l'événement `Rentrée techniciens` _et_ que je rentre un descriptif `C'est le jour de la rentrée pour les technicien ES 2020/2021.` _et_ que je rentre la localisation `10,Ch. Gérard de Ternier, 1213 Petit-Lancy` _et_ que je  rentre une date de début `25.04.2020` _et_ que je rentre une date de fin `24.08.2020` _et_ que je choisi de mettre l'événement en `public` _et_ que je choisis un maximum de `12` participants _et_ que je ne choisis pas d'image _et_ que je clique sur le bouton `CRÉER UN ÉVÉNEMENT` __alors__ je reste sur la page de création d'événement. |
+|    __Situation__    | __Etant donné que__ je suis un utilisateur connecté _et_ que l'événement que je veux crée n'existe pas encore __quand__ j'arrive sur la page de création d'événement _et_ que je rentre le nom de l'événement `Rentrée techniciens` _et_ que je rentre un descriptif `C'est le jour de la rentrée pour les technicien ES 2020/2021.` _et_ que je rentre la localisation `10,Ch. Gérard de Ternier, 1213 Petit-Lancy` _et_ que je rentre une date de début `25.04.2020` _et_ que rentre `9:00` en heure de début _et_ que je rentre une date de fin `24.08.2020` _et_ que je choisis `16:15` en heure de fin _et_ que je choisi de mettre l'événement en `public` _et_ que je choisis un maximum de `12` participants _et_ que je ne choisis pas d'image _et_ que je clique sur le bouton `CRÉER UN ÉVÉNEMENT` __alors__ je reste sur la page de création d'événement. |
 | __Résultat obtenu__ | Je clique sur le bouton `CRÉER UN ÉVÉNEMENT` _et_ un message d'erreur apparaît au centre de la page avec le texte `L'événement ne peut pas commencer avant aujourd'hui.` _et_ je reste sur la page `Créer un événement`. |
-|     __Statut__      | ❌ KO                                                         |
+|     __Statut__      | ✔ OK                                                         |
 
 |         Nom         | 4.1 Inscription à un événement ouvert (<span style="color:#27c229">situation valides</span>) |
 | :-----------------: | ------------------------------------------------------------ |
@@ -2052,19 +2055,19 @@ Les scénarios des tests sont détaillés afin que n'importe quelle personne pui
 | __Résultat obtenu__ | Je peux voir les événements publique à venir ainsi que leur description _et_ dans la barre de navigation je ily a les liens pour la page `Connexion`, la page `Inscription` et la page qui résume le but du site. |
 |     __Statut__      | ✔ OK                                                         |
 
-|         Nom         | 7.1 Affichage des événements sur la page `Accueil` (<span style="color:#27c229">situation valides</span>)        |
-| :-----------------: | ------------------------------------------------------------------------------------------ |
-|   __User Story__    | S.12 Affichage des événements                                                              |
+|         Nom         | 7.1 Affichage des événements sur la page `Accueil` (<span style="color:#27c229">situation valides</span>) |
+| :-----------------: | ------------------------------------------------------------ |
+|   __User Story__    | S.12 Affichage des événements                                |
 |    __Situation__    | __Etant donné que__ je suis un utilisateur anonyme _et_ que je suis sur la page `Accueil` __alors__ je peux voir les événements publiques qui sont à venir. |
 | __Résultat obtenu__ | Je suis sur la page `Accueil` _et_ je peux voir les événements publiques qui sont à venir. |
-|     __Statut__      | ❌ KO                                                                                      |
+|     __Statut__      | ✔ OK                                                         |
 
-|         Nom         | 7.2 Affichage des événements sur la page `Accueil` (<span style="color:#27c229">situation valides</span>)        |
-| :-----------------: | ------------------------------------------------------------------------------------------ |
-|   __User Story__    | S.12 Affichage des événements                                                              |
+|         Nom         | 7.2 Affichage des événements sur la page `Accueil` (<span style="color:#27c229">situation valides</span>) |
+| :-----------------: | ------------------------------------------------------------ |
+|   __User Story__    | S.12 Affichage des événements                                |
 |    __Situation__    | __Etant donné que__ je suis un utilisateur connecté _et_ que je suis sur la page `Accueil` __alors__ je peux voir les événements publiques qui sont à venir. |
 | __Résultat obtenu__ | Je suis sur la page `Accueil` _et_ je peux voir les événements publiques qui sont à venir. |
-|     __Statut__      | ❌ KO                                                                                      |
+|     __Statut__      | ✔ OK                                                         |
 
 |         Nom         | 7.3 Affichage des événements sur la page `Gestion des événements` (<span style="color:#27c229">situation valides</span>)        |
 | :-----------------: | ------------------------------------------------------------------------------------------ |
@@ -2084,27 +2087,27 @@ Les scénarios des tests sont détaillés afin que n'importe quelle personne pui
 
 | Numéro de test | J0 <div style="font-weight:normal;">25.05.2020</div> | J1 <div style="font-weight:normal;">26.05.2020</div> | J2 <div style="font-weight:normal;">27.05.2020</div> | J3 <div style="font-weight:normal;">28.05.2020</div> | J4 <div style="font-weight:normal;">29.05.2020</div> | J5 <div style="font-weight:normal;">02.06.2020</div> | J6 <div style="font-weight:normal;">03.06.2020</div> | J7 <div style="font-weight:normal;">04.06.2020</div> | J8 <div style="font-weight:normal;">05.06.2020</div> | J9 <div style="font-weight:normal;">08.06.2020</div> | J10 <div style="font-weight:normal;">09.06.2020</div> |
 | -------------- | ---------------------------------------------------- | ---------------------------------------------------- | ---------------------------------------------------- | ---------------------------------------------------- | ---------------------------------------------------- | ---------------------------------------------------- | ---------------------------------------------------- | ---------------------------------------------------- | ---------------------------------------------------- | ---------------------------------------------------- | ----------------------------------------------------- |
-| 1.1            | ❌                                                    | ✔                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                     |
-| 1.2            | ❌                                                    | ✔                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                     |
-| 1.3            | ❌                                                    | ✔                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                     |
-| 1.4            | ❌                                                    | ✔                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                     |
-| 1.5            | ❌                                                    | ✔                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                     |
-| 1.6            | ❌                                                    | ✔                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                     |
-| 2.1            | ❌                                                    | ✔                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                     |
-| 2.2            | ❌                                                    | ✔                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                     |
-| 2.3            | ❌                                                    | ✔                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                     |
+| 1.1            | ❌                                                    | ✔                                                    | ✔                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                     |
+| 1.2            | ❌                                                    | ✔                                                    | ✔                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                     |
+| 1.3            | ❌                                                    | ✔                                                    | ✔                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                     |
+| 1.4            | ❌                                                    | ✔                                                    | ✔                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                     |
+| 1.5            | ❌                                                    | ✔                                                    | ✔                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                     |
+| 1.6            | ❌                                                    | ✔                                                    | ✔                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                     |
+| 2.1            | ❌                                                    | ✔                                                    | ✔                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                     |
+| 2.2            | ❌                                                    | ✔                                                    | ✔                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                     |
+| 2.3            | ❌                                                    | ✔                                                    | ✔                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                     |
 | 3.1            | ❌                                                    | ❌                                                    | ✔                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                     |
 | 3.2            | ❌                                                    | ❌                                                    | ✔                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                     |
-| 3.3            | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                     |
+| 3.3            | ❌                                                    | ❌                                                    | ❌                                                    | ✔                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                     |
 | 3.4            | ❌                                                    | ❌                                                    | ✔                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                     |
 | 3.5            | ❌                                                    | ❌                                                    | ✔                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                     |
-| 3.6            | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                     |
+| 3.6            | ❌                                                    | ❌                                                    | ✔                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                     |
 | 4.1            | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                     |
 | 4.2            | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                     |
 | 5.1            | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                     |
 | 6.1            | ❌                                                    | ❌                                                    | ✔                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                     |
-| 7.1            | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                     |
-| 7.2            | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                     |
+| 7.1            | ❌                                                    | ❌                                                    | ❌                                                    | ✔                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                     |
+| 7.2            | ❌                                                    | ❌                                                    | ❌                                                    | ✔                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                     |
 | 7.3            | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                     |
 | 8.1            | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                    | ❌                                                     |
 

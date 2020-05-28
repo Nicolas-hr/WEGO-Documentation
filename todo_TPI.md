@@ -80,10 +80,18 @@ On est revenu sur la question d'hier et pour finir on a chabbgé de décision et
 
 Je demande pour ajouter une colone `salt` dans la table user afin de mieux sécuriser les mots de passe.
 
-❗❗ 11h55 entretien avec Mme Mota
+❗❗ 11h55 fin entretien avec Mme Mota
 
 
-## Vendredi 29 juin rendre une doc intermédiaire samedi au plus tard.
+## Jeudi 28 mai
+
+❗❗ 09h00 entretien mes experts et Mme Mota
+
+
+❗❗ 09h10 entretien mes experts et Mme Mota
+
+
+## Vendredi 29 mai rendre une doc intermédiaire samedi au plus tard.
 
 Rédiger la doc utilisateur
 
