@@ -88,7 +88,7 @@ Je demande pour ajouter une colone `salt` dans la table user afin de mieux sécu
 ❗❗ 09h00 entretien mes experts
 
 
-❗❗ 09h10 entretien mes experts
+❗❗ 09h10 fin entretien mes experts
 
 
 ## Vendredi 29 mai
@@ -100,6 +100,43 @@ Je demande pour ajouter une colone `salt` dans la table user afin de mieux sécu
 [❌] Rendre le manuel utilisateur + doc technique
 
 ❗❗ 11h40 fin entretien avec Mme Mota
+
+## Mardi 02 juin
+
+❗❗ 11h00 entretien avec Mme Mota
+
+Dire je suis pénalisé pour faire des schémas UML parce que pas de 326 
+
+[❌] Ajout un Rapport fichier rapport de bug pour documenter mes tests (fails)
+
+[❌] Faire en sorte les émoticônes du suivis journalier de tests soit plus visible
+
+[❌] Lister tous les acronymes + leurs signification cités dans le glossaire
+
+[❌] Mettre plus en évidences que j'utilise les outils la méthodologie agile (backlog, Gherkins, rédaction des scénarios de test avant d'implémenter dans l'app)
+
+[❌] Mieux documenter les difficultés
+
+[❌] Ajouter des légendes au tableau et aux images
+
+[❌] Documenter comment j'utilise Katalon
+
+[❌] Mettre en annexes l'image de mes séries de test avec Katalon
+
+Retirer Katalon des outils externe ?
+
+Au début je pensais avoir compris le point _structure du code_.
+N'ayant pas eu de leçon sur la structure d'un site j'ai eu beaucoup de mal à comprendre le point _structure du code_ dans mon énoncé (pg. 5)
+
+❗❗ 12h fin de l'entretien avec Mme Mota
+
+
+
+## Mercredi 03 juin 
+
+
+
+
 
 ## Vendredi 5 juin
 

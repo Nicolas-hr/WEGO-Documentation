@@ -234,7 +234,7 @@ $.ajax({
 
 Car avec un appel ajax on ne peut pas mettre le _success:_ en asynchrone alors qu'avec un _fetch_ on peut le mettre en asynchrone.
 
-Mais je n'ai pas pu finir à 100% l'inscription à un événement publique, j'ai réussi à faire toutes la logique mais j'ai pas réussi à faire un style qui fonctionne une fois qe'on c'est iinscrit à plusieurs événements, donc je vais finir cette tâche demain.
+Mais je n'ai pas pu finir à 100% l'inscription à un événement publique, j'ai réussi à faire toutes la logique mais j'ai pas réussi à faire un style qui fonctionne une fois qu'on c'est inscrit à plusieurs événements, donc je vais finir cette tâche demain.
 
 ---
 
@@ -242,16 +242,16 @@ Mais je n'ai pas pu finir à 100% l'inscription à un événement publique, j'ai
 
 ### Objectifs
 
-Les objectifs de la journée sont de finir l'inscritpion à un événement publique et commencer à faire la page pour la gestion des événements.
+Les objectifs de la journée sont de finir inscription à un événement publique et commencer à faire la page pour la gestion des événements.
 
 ### Déroulement
 
-__08h00:__ Je commence ma journée en reprennant le travail sur l'inscritpion à un événement publique.
+__08h00:__ Je commence ma journée en reprenant le travail sur inscription à un événement publique.
 
 __8h25:__ Je finis l'inscription à un événement privé. Et je commence l'affichage de la page de gestion des événements.
 
 __11h00:__ J'ai un entretien avec Mme Mota afin de voir mon avancement.
-Durant cet entretien Mme Mota m'a demandé de faire un logo afin d'avoir une identité visuel pourmon site.
+Durant cet entretien Mme Mota m'a demandé de faire un logo afin d'avoir une identité visuel pour mon site.
 
 __11h40:__ Fin de l'entretien avec Mme Mota et je reprends mon travail sur la page gestion des événements.
 
@@ -261,7 +261,7 @@ __13h20:__ Fin de ma pause midi et je me remets à travailler sur la page de ges
 
 __15h00:__ Je pars pour mon rendez-vous chez le médecin.
 
-__16h20:__ Retour de chez le médecin. Et me remets à trvailler sur la page de gestion des événements.
+__16h20:__ Retour de chez le médecin. Et me remets à travailler sur la page de gestion des événements.
 
 __18h30:__ Je finis la page de gestion des événements ce qui finis ma journée, j'ai travaillé plus tard afin rattraper le fait que j'ai eu un rendez-vous chez le médecin.
 
@@ -275,14 +275,73 @@ Aujourd'hui j'ai pu faire tout ce que j'avais prévus, ce qui est une première 
 
 ### Objectifs
 
-Les objectifs de la journée sont faire une page entière avec les informations de l'événements (actuellement il n'y a qu'une carte avec les informations), et faire la validation à un événenement.
+Les objectifs de la journée sont faire une page entière avec les informations de l'événements (actuellement il n'y a qu'une carte avec les informations), et faire la validation à un événement.
 
 ### Déroulement
 
 __08h00:__ Je commence ma journée en travaillant sur la page qui contient les information de l'événement.
 
+__11h00:__ J'ai un entretien avec Mme Mota afin de voir mon avancement et de me faire un retour sur la documentation intermédiaire rendu vendredi.
+
+Lors de cette entretien on est revenu sur le rendu intermédiaire que j'ai rendu vendredi 29 mai.
+Dans les points que je dois revoir dans ma documentation sont: 
+* La catégorie _Structure du code_(page 5 de l'énoncé).
+* Ajout un Rapport fichier rapport de bug pour documenter mes tests (fails)
+* Faire en sorte les émoticônes du suivis journalier de tests soit plus visible
+* Lister tous les acronymes + leurs signification cités dans le glossaire
+* Mettre plus en évidences que j'utilise les outils la méthodologie agile (backlog, Gherkins, rédaction des scénarios de test avant d'implémenter dans l'app)
+* Mieux documenter les difficultés
+* Ajouter des légendes au tableau et aux images
+
+__12h40:__ Fin de l'entretien avec Mme Mota et je reprends mon travail sur l'affichage des informations d'un événement.
+
+__14h10:__ Je prends ma pause midi.
+
+__14h45:__ Fin de ma pause midi et je me remets à travailler sur la page d'information d'un événement.
+
+__15h20:__ Je finis la page d'informations d'un événement. Et je commence à rédiger le scénario de la validation de participation à un événement.
+
+__15h40:__ Je finis de rédiger les scénarios et je commence à implémenter la fonctionnalité.
+
+__17h30:__ J'ai finis d'implémenter les mails lors de l'inscription à un événement et de le tester. Et je finis ma journée.
+
 ### Bilan
 
+Aujourd'hui j'ai pu faire toutes les tâches planifié, j'ai eu du mal avec l'envoie de mail car je n'ai beaucoup utilisé mail lors de ma formation mais grâce à la documentation de PHPMailer j'ai pu y arriver. J'ai eu un problème avec l'envoie de mail car une fois que le mail c'était envoyé le message de validation du call ajax n'apparaissais plus et il n'y avait l'actualisation de la page non plus.
+Mais en recherchant sur stackoverflow j'ai pu trouver ou était mon problème.
 
+``` php
+  try {
+    //Enable SMTP debugging. 
+    $mail->SMTPDebug = 3;
+```
+
+De base la variable STMPDebug est initialisé à `3`, ce qui veut dire qu'un message de validation est envoyé côté client et côté serveur et ceci interférai avec:
+
+``` php
+  echo json_encode([
+    'ReturnCode' => 0,
+    'Success' => $successMessage
+  ]);
+  exit();
+```
+Dans ma console JavaScript il y avait ceci qui était affiché avec mon message de validation à la fin:
+
+<img src="./assets/phpMailerError.PNG" height="600">
+
+Mais du coup après être allé sur stackoverflow:
+
+``` php
+  try {
+    //Enable SMTP debugging. 
+    $mail->SMTPDebug = 0;
+```
+
+J'ai pu comprendre qu'en initialisant `STMPDebug` à 0 il n'y aurait plus de problème avec mon call ajax.
+
+point qui ont bloqués:
+compréhension _structure du code_ (page 5 de l'énoncé)
+
+Aussi aujourd'hui lors de l'entrtien avec Mme Mota elle m'a fait un retour sur la documentation intermédiaire et je me suis rendu compte que j'avais mal compris la partie _Strucuture du code_ dans l'énoncé (page 5), Mme Mota a passé environ 30miutes à m'expliquer ce qui était attendu.
 
 ---
