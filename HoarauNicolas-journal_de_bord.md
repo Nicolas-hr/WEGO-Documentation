@@ -184,7 +184,7 @@ Les objectifs de la journée sont finir la création de la liste pour des invit�
 
 __08h00:__ Je commence ma journée en travaillant sur la création de la liste des invités pour un événements privé.
 
-__9h00:__ J'ai un entretien avec mes experts.
+__9h00:__ J'ai un entretien avec mes experts afin de voir si mon TPI se déroulait sans encombre.
 
 __09h10:__ Fin de entretien avec mes experts.
 
@@ -235,5 +235,54 @@ $.ajax({
 Car avec un appel ajax on ne peut pas mettre le _success:_ en asynchrone alors qu'avec un _fetch_ on peut le mettre en asynchrone.
 
 Mais je n'ai pas pu finir à 100% l'inscription à un événement publique, j'ai réussi à faire toutes la logique mais j'ai pas réussi à faire un style qui fonctionne une fois qe'on c'est iinscrit à plusieurs événements, donc je vais finir cette tâche demain.
+
+---
+
+## Vendredi 29 Mai 2020
+
+### Objectifs
+
+Les objectifs de la journée sont de finir l'inscritpion à un événement publique et commencer à faire la page pour la gestion des événements.
+
+### Déroulement
+
+__08h00:__ Je commence ma journée en reprennant le travail sur l'inscritpion à un événement publique.
+
+__8h25:__ Je finis l'inscription à un événement privé. Et je commence l'affichage de la page de gestion des événements.
+
+__11h00:__ J'ai un entretien avec Mme Mota afin de voir mon avancement.
+Durant cet entretien Mme Mota m'a demandé de faire un logo afin d'avoir une identité visuel pourmon site.
+
+__11h40:__ Fin de l'entretien avec Mme Mota et je reprends mon travail sur la page gestion des événements.
+
+__12h25:__ Je prends ma pause midi.
+
+__13h20:__ Fin de ma pause midi et je me remets à travailler sur la page de gestion des événements.
+
+__15h00:__ Je pars pour mon rendez-vous chez le médecin.
+
+__16h20:__ Retour de chez le médecin. Et me remets à trvailler sur la page de gestion des événements.
+
+__18h30:__ Je finis la page de gestion des événements ce qui finis ma journée, j'ai travaillé plus tard afin rattraper le fait que j'ai eu un rendez-vous chez le médecin.
+
+### Bilan
+
+Aujourd'hui j'ai pu faire tout ce que j'avais prévus, ce qui est une première depuis le début de mon TPI.
+
+---
+
+## Mardi 02 Juin 2020
+
+### Objectifs
+
+Les objectifs de la journée sont faire une page entière avec les informations de l'événements (actuellement il n'y a qu'une carte avec les informations), et faire la validation à un événenement.
+
+### Déroulement
+
+__08h00:__ Je commence ma journée en travaillant sur la page qui contient les information de l'événement.
+
+### Bilan
+
+
 
 ---

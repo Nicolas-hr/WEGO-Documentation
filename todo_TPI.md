@@ -85,16 +85,24 @@ Je demande pour ajouter une colone `salt` dans la table user afin de mieux sécu
 
 ## Jeudi 28 mai
 
-❗❗ 09h00 entretien mes experts et Mme Mota
+❗❗ 09h00 entretien mes experts
 
 
-❗❗ 09h10 entretien mes experts et Mme Mota
+❗❗ 09h10 entretien mes experts
 
 
-## Vendredi 29 mai rendre une doc intermédiaire samedi au plus tard.
+## Vendredi 29 mai
 
-Rédiger la doc utilisateur
+❗❗ 11h00 entretien avec Mme Mota
+
+[❌] Rédiger la doc utilisateur
+
+[❌] Rendre le manuel utilisateur + doc technique
+
+❗❗ 11h40 fin entretien avec Mme Mota
 
 ## Vendredi 5 juin
 
-[❌] Rendre le manuel utilisateur + doc technique
+[❌] Faire un logo pour l'identité visuel du site (au plus tard)
+
+[❌] Démo total du site
