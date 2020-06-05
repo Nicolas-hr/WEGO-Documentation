@@ -46,7 +46,7 @@ Ensuite un message de validation apparaît.
 
 <div style='page-break-after: always; break-after: page;'></div>
 
-## 3. Page d'accueil 
+## 3. Page d'accueil
 
 Quand vous n'êtes pas connecté vous pouvez accéder à la page d'accueil sur laquelle on peut voir les événements à venir.
 

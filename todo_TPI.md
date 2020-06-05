@@ -1,6 +1,6 @@
 ## Lundi 25 mai
 
-__TO DO__
+**TO DO**
 
 [⏳] Rédiger les scénarios
 
@@ -12,36 +12,25 @@ __TO DO__
 
 [✔️] Créer un Meet qui dur tout le long du TPI (du 25 mai au 9 juin)
 
-
-
 ❗❗ 11h30 entretien avec Mme Mota
-
-
 
 ❗❗ 12h35 fin entretien avec Mme Mota
 
-
-
-__User story à ajouter :__
+**User story à ajouter :**
 
 [✔️] Rajouter la création de la liste des personnes invités événement privé
 
 [✔️] Participation à un événement privé
 
-
-
 ❗❗ 16h entretien avec Mme Mota
 
+**User story à modifier**
 
-
-__User story à modifier__
-
-[✔️] Modifier S.15 __PAS__ sur le profil juste dans `Gérer mes événements` 
-
+[✔️] Modifier S.15 **PAS** sur le profil juste dans `Gérer mes événements`
 
 ❗❗ 17h35 fin d'entretien avec Mme Mota
 
-__Aide compréhension jalon__
+**Aide compréhension jalon**
 
 un jalon = un événement
 Exemple pour savoir si on est en retard sur ce que l'on a prévu
@@ -53,15 +42,14 @@ elle marque un événement || la fin d'un cycle (événement , profil, etc)
 
 elle m'a aidé a corriger mes scénarios de tests.
 
-[✔️] Faire un git juste avec la doc __SANS__ le code
+[✔️] Faire un git juste avec la doc **SANS** le code
 
 [✔️] Séparer en 2 GIT privé:
 
-* un pour le code source juste avec Mme Mota
-* un pour la doc avec les experts et Mme Mota
+- un pour le code source juste avec Mme Mota
+- un pour la doc avec les experts et Mme Mota
 
 [❌] Mettre un README afin d'expliquer comment installer le projet.
-
 
 [❔] Question : Faut-il ajouter directement tous les utilisateurs d'un événements privé ou on peut en les ajouter en ajouter une partie et ajouter la suite après avoir créer l'événement ?
 
@@ -70,7 +58,6 @@ elle m'a aidé a corriger mes scénarios de tests.
 Choix: ne pas rédiger tous les scénarios tests d'un coup mais les rédiger au début de la journée et à la fin de la journée.
 
 ❗❗ 12h10 fin d'entretien avec Mme Mota
-
 
 ## Mercredi 27 mai
 
@@ -82,14 +69,11 @@ Je demande pour ajouter une colone `salt` dans la table user afin de mieux sécu
 
 ❗❗ 11h55 fin entretien avec Mme Mota
 
-
 ## Jeudi 28 mai
 
 ❗❗ 09h00 entretien mes experts
 
-
 ❗❗ 09h10 fin entretien mes experts
-
 
 ## Vendredi 29 mai
 
@@ -105,7 +89,7 @@ Je demande pour ajouter une colone `salt` dans la table user afin de mieux sécu
 
 ❗❗ 11h00 entretien avec Mme Mota
 
-Dire je suis pénalisé pour faire des schémas UML parce que pas de 326 
+Dire je suis pénalisé pour faire des schémas UML parce que pas de 326
 
 [❌] Ajout un Rapport fichier rapport de bug pour documenter mes tests (fails)
 
@@ -130,16 +114,38 @@ N'ayant pas eu de leçon sur la structure d'un site j'ai eu beaucoup de mal à c
 
 ❗❗ 12h fin de l'entretien avec Mme Mota
 
+## Mercredi 03 juin
 
+❗❗ 16h fin de l'entretien avec Mme Mota
 
-## Mercredi 03 juin 
+dire pourquoi j'ai modifié et dire que j'en parlé
+Préciser que la nouvelle structure du site est en accord avec Mota et qu'aucune ressources(bulle de la structure) n'a été impacté par la modification..
+Mettre à jour le diagramme de la structure du site avec ma structure du site
 
-
-
-
+Faire un README.md pour chaque dépôt Git
 
 ## Vendredi 5 juin
 
-[❌] Faire un logo pour l'identité visuel du site (au plus tard)
+A18 11
+A19 18
 
-[❌] Démo total du site
+Après relecture de l'énoncé
+A18 9 j'ai demandé ce que voulais dire le point
+
+Scénario 4.4
+
+On peut modifier l'image d'un événement
+On peut modifier le mot de passe
+
+On peut pas modifier d'event privé
+On peut pas ajouter des invités après la création.
+
+Faire une 4ème zone pour la modif de tous les événements
+
+Nice To Have:
+
+- passer un événement de publlique à privé
+
+## Mercredi 17 juin
+
+9h00 Présentation orale
