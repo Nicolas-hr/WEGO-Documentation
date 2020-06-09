@@ -1,38 +1,35 @@
-# WE GO
-
-![logo site](./assets/bg.svg)
-
-## Hoarau Nicolas
-
 ### Rapport TPI et documentation technique
+
+![logo site](./assets/logoWego.svg)
+
+### Travail pratique individuel (TPI)
+
+### Hoarau Nicolas
+
+#### 09.06.2020
 
 <div style='page-break-after: always; break-after: page;'></div>
 
 ## Table des matières
 
 [Table des versions](#tables-des-versions) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2
-[Introduction](#introduction)  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2
-[Rappel de l'énoncé (basé sur le Cahier des charges)](#rappel-de-l-enonce) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2
+[Introduction](#introduction) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2
 [Organisation](#organisation) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2
 [Livrables](#livrables) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2
 [Matériels et logiciels nécessaires](#materiels-et-logiciels-necessaires) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2
 [Description de l'application](#description-de-l'application) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2
-[Gestion de projet](#gestion-de-projet) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3
+[Gestion de projet](#gestion-de-projet) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3
 [Méthodologie](#méthodologie) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3
 [Backlog](#backlog) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4
-[Planification](#planification) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 5
+[Planification](#planification) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 5
 [Planning prévisionnel](#planning-prévisionnel) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 5
 [Planning effectif](#planning-effectif) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 5
-[Généralités concernant l'implémentation](#généralités-concernant-l'implémentation) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 6
+[Généralités concernant l'implémentation](#généralités-concernant-l'implémentation) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 6
 [Base de données](#base-de-données) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 6
-Informations techniques
-MCD
-MLD
-Dictionnaire de données
+[Dictionnaire de données](#dictionnaire-des-donnees) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 6
 [Structure](#structure) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 6
 [Classes](#classes) (ou fichiers de code) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 6
-[Environnement](#environnement) (local et/ou distant) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 6
-[Librairies et outils externes](#librairies-et-outils-externes) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 7
+[Librairies et outils externes](#librairies-et-outils-externes) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 7
 [Font Awesome](#font-awesome) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 7
 [Google Fonts](#google-fonts) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 7
 [JQuery](#jquery) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 7
@@ -42,24 +39,23 @@ Dictionnaire de données
 [Adobe Illustrator](#adobe-illustrator) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 7
 [Composer](#Composer) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 7
 [Git](#git) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 7
-[Analyse des fonctionnalités majeures](#analyse-des-fonctionnalités-majeures) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 8
+[Analyse des fonctionnalités majeures](#analyse-des-fonctionnalités-majeures) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 8
 (Critères et fonctionnalités de CdC)
-[Plan de test et tests](#plan-de-tests-et-tests) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 9
+[Plan de test et tests](#plan-de-tests-et-tests) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 9
 [Périmètre des tests](#périmètre-des-tests) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 8
 [Environnement](#environnement) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 8
 [Scénarios](#scénarios) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 8
-[Suivis journaliers des tests](#suivis-journaliers-des-tests) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 9
-[Conclusion](#conclusion) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 11
+[Suivis journaliers des tests](#suivis-journaliers-des-tests) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 9
+[Conclusion](#conclusion) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 11
 Difficultés rencontrées
 Variantes de solutions et choix
 Améliorations possibles
 Bilan personnel
 Remerciements
-[Annexes](#annexes) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 12
+[Annexes](#annexes) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 12
 [Glossaire](#glossaire) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 12
 [Sources](#sources) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 12
-[Résumé TPI](#resume-TPI) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 12
-(Résumé conceptuel du travail effectué. Selon la structure du résumé TPI - situation de départ (paragraphe 1), - mise en œuvre (paragraphe 2), - et résultat (paragraphe 3).)
+[Résumé TPI](#resume-TPI) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 12
 [Manuel utilisateur](#manuel-utilisateur) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 12
 [Énoncé](#enonce) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 12
 [Journal de bord](#journal-de-bord) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 12
@@ -107,6 +103,106 @@ Pour la formatrice :
 
 #### Description de l'application
 
+**WE GO** est une application WEB qui permet aux utilisateurs enregistrés de créer et de s’inscrire à des événements de type ouverts ou privés
+L’application prévoit 3 types d’utilisateurs: l’anonyme, le membre et l’administrateur.
+Les fonctionnalités et droits à implémenter sont :
+**Un utilisateur anonyme a le droit de**
+
+- Afficher une page accueil présentant
+  - Le nom et une image des événements ouverts à venir(heure du chargement de la page+ 1 heure)
+    - Si l’événement a une image, l’image s’affiche. Si non, une image par défaut s’affiche
+  - Un descriptif court du but et du fonctionnement du site
+  - Une zone lui permettant de créer un compte
+  - Une zone de connexion
+
+<span style="text-decoration: underline">Contraintes et règles de gestion</span>
+
+- Seuls les événements de type «ouvert»et à venir sont affichés sur la page d’accueil du site
+
+**Un utilisateur authentifié a tous les droits d’un utilisateur anonyme et en plus le droit de**
+
+- Se déconnecter et revenir à la page d’accueil
+- Afficher une page personnelle permettant de gérer son propre profil (lire, modifier, supprimer).
+  Un profil contient les informations suivantes:
+  - un pseudo(obligatoire, unique au sein de l’application)
+  - un prénom(obligatoire)
+  - un nom(peut être vide)
+  - un email(obligatoire, unique au sein de l’application)
+  - un mot de passe (obligatoire)
+  - un numéro de téléphone (peut être vide)
+
+<span style="text-decoration: underline">Contraintes et règles de gestion:</span>
+
+- Lors de la suppression d’un profil
+  - Il est impossible de supprimer un profil si celui-ci est l’organisateur d’un événement à venir où des personnes sont inscrites (la gestion des désinscriptions groupées d’autres participants que l’organisateur lui-même est hors périmètre de cette application).
+  - La suppression d’un profil entraine la suppression des inscriptions de l’utilisateur.
+  - Le mot de passe doit contenir au moins 9 caractères dont au moins 1 chiffre et 1 caractère spécial
+- Afficher une page lui permettant de créer un événement. Un événement contient les informations suivantes:
+
+  - nom(obligatoire)
+  - un court descriptif(obligatoire)
+  - une Date&Time de début(obligatoire)
+  - une Date&Time de fin(obligatoire)
+  - une Date&Time de création(obligatoire, date système)
+  - un lieu(obligatoire)
+  - un type: privé ou ouvert(obligatoire)
+  - un nombre maximum de participants(obligatoire)
+  - une image
+    - l’image n’est pas obligatoire.
+      - Si l’organisateur ne fournit pas d’image, une image par défaut lui est attribuée
+
+<span style="text-decoration: underline">Contraintes et règles de gestion:</span>
+
+- Seul l’organisateur de l’événement peut le modifier ou le supprimer
+  - Un événement ne peut pas être supprimé s’il contient des inscrits
+    - la gestion des désinscriptions d’autres participants que l’organisateur lui-même est faite hors périmètre de l’application.
+  - Seuls les événements de type «ouvert» sont affichés dans la page d’accueil du site
+  - L’organisateur de l’événement est inscrit d’office à l’événement.
+  - Les événements de type privé
+    - Lors de la création d’un événement privé, l’utilisateur (l’hôte), doit remplir une liste des personnes invitées parmi les parmi les utilisateurs de l’application
+      - Seuls les utilisateurs faisant partie de cette liste d’invités peuvent s’inscrire à un événement privé
+
+* Afficher une page lui permettant de visualiser les détails d’un événement qu’il organise et de les modifier ou de supprimer l’événement affiché. Cette page affiche les détails suivants:
+  - le nom
+  - le descriptif
+  - la Date&Time de début
+  - la Date&Time de fin
+  - la Date&Time de création
+  - le lieu
+  - le type: ouvert ou privé
+  - le nombre maximum de participants
+  - l’image de l’événement
+  - la liste d’utilisateurs inscrits
+
+<span  style="text-decoration: underline">Contraintes et règles de gestion</span>
+
+- Seul l’organisateur de l’événement peut le modifier ou le supprimer
+  - Un événement ne peut pas être supprimé s’il contient des inscrits
+    - la gestion des désinscriptions d’autres participants que l’organisateur lui-même est faite hors périmètre de l’application.
+
+* Afficher une page lui permettant de gérer ses inscriptions à un événement.
+
+Cette page contient trois zones d’affichage:
+
+- Une zone contenant tous les événements ouverts à venir
+- Une zone contenant tous les événement privés à venir pour lesquels l’utilisateur a été invité (cf. fait partie de la liste d’invités de l’événement privé)
+- Une zone contenant la liste de tous les événements pour lesquels l’utilisateur est inscrit
+  - un bouton sur chaque événement de cette zone permet à l’utilisateur de se désinscrire.
+    - Suite à la désinscription, l’événement n’est plus affiché dans cette zone
+- Lorsqu’un utilisateur s’inscrit à un événement une confirmation par mail lui est envoyée au mail enregistré dans la base de données.
+- Un utilisateur inscrit à un événement reçoit un mail de rappel un jour avant.
+
+<span  style="text-decoration: underline">Contraintes et règles de gestion</span>
+
+- Seul un utilisateur connecté sur le site peut s’inscrire aux événements.
+- Les inscriptions ne peuvent être enregistrées que jusqu’au nombre maximum saisi par l’hôte lors de la création de l’événement.
+  - Lorsque ce nombre d’inscription est atteint, l’événement affiche l’information «complet» et plus aucune inscription ne peut être effectuée
+- Un utilisateur ne peut s’inscrire un événement de type «privé» que s’il fait partie de la liste des invités crée par l’organisateur lors de la création de l’événement.
+
+**Un administrateur a, en plus des droits ci-dessus, les droits de :**
+
+- Gérer la base de données au travers de l’interface d’administration de la base donnée avec un rôle administrateur (pas de fonctionnalité d’administration à implémenter dans l’application web, le rôle BD suffit)
+- Maintenir le code source de l’application (pas de fonctionnalité de développement à implémenter dans l’application web, les informations techniques permettant de modifier le code source suffisent)
 <div style='page-break-after: always; break-after: page;'></div>
 
 ## Gestion de projet
@@ -255,11 +351,11 @@ C'est lors de cette dernière étape que le bilan de la journée ou celui l'éla
 | **Test(s)**     | Le test 17.1                                                                                                                                                                                                                                                                                       |
 | **Priorité**    | ❗: Critique                                                                                                                                                                                                                                                                                       |
 
-| Nom             | S.18 Gestion des accès (A14)                                                                                                                                                                          |
-| --------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Description** | **En tant qu'utilisateur** non connecté, je peux voir que les événements publics et la navbar m'affiche que les liens pour aller à l'accueil, voir le descriptif du site, me connecter et m'inscrire. |
-| **Test(s)**     | Le test 6.1                                                                                                                                                                                           |
-| **Priorité**    | ❗❗: Indispensable                                                                                                                                                                                   |
+| Nom             | S.18 Gestion des accès (A14)                                 |
+| --------------- | ------------------------------------------------------------ |
+| **Description** | **En tant qu'utilisateur** non connecté, je peux voir que les événements publics et la barre de navigation m'affiche que les liens pour aller à l'accueil, voir le descriptif du site, me connecter et m'inscrire. |
+| **Test(s)**     | Le test 6.1                                                  |
+| **Priorité**    | ❗❗: Indispensable                                            |
 
 | Nom                       | S.19 Création du dépôt Git                                                                                                                                          |
 | ------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -292,7 +388,7 @@ La couleur <span style="color: #3993fa;">#3993fa</span> a été utilisé afin de
 
 #### Planning prévisionnel
 
-<table>
+<table style="font-size: 12px;">
   <tr style="text-align: center;">
     <th>Jour</th>
     <th colspan="2">J1<div style="font-weight:normal;">25.05.2020</div></th>
@@ -636,7 +732,7 @@ La couleur <span style="color: #3993fa;">#3993fa</span> a été utilisé afin de
 
 <div style='page-break-after: always; break-after: page;'></div>
 
-<table>
+<table style="font-size: 12px;">
     <tr style="text-align: center;">
     <th>Jour</th>
     <th colspan="2">J1<div style="font-weight:normal;">25.05.2020</div></th>
@@ -1032,7 +1128,7 @@ La couleur <span style="color: #3993fa;">#3993fa</span> a été utilisé afin de
 
 #### Planning effectif
 
-<table>
+<table style="font-size: 12px;">
   <tr style="text-align: center;">
     <th>Jour</th>
     <th colspan="2">J1<div style="font-weight:normal;">25.05.2020</div></th>
@@ -1098,31 +1194,6 @@ La couleur <span style="color: #3993fa;">#3993fa</span> a été utilisé afin de
     <td></td>
   </tr>
   <tr>
-    <td>Rédaction des scénarios</td>
-    <td></td>
-    <td style="background-color: #85db53;"></td>
-    <td style="background-color: #85db53;"></td>
-    <td style="background-color: #85db53;"></td>
-    <td style="background-color: #85db53;"></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td style="background-color: #85db53;"></td>
-    <td style="background-color: #85db53;"></td>
-    <td style="background-color: #85db53;"></td>
-    <td style="background-color: #85db53;"></td>
-    <td style="background-color: #85db53;"></td>
-    <td style="background-color: #85db53;"></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
     <td>Planification des tâches</td>
     <td style="background-color: #85db53;"></td>
     <td style="background-color: #85db53;"></td>
@@ -1147,10 +1218,11 @@ La couleur <span style="color: #3993fa;">#3993fa</span> a été utilisé afin de
     <td></td>
     <td></td>
   </tr>
-  <tr>
-    <td><b>S.19</b> Création du dépôt Git</td>
+    <tr>
+    <td>Rédaction des scénarios</td>
     <td></td>
-    <td></td>
+    <td style="background-color: #85db53;"></td>
+    <td style="background-color: #85db53;"></td>
     <td style="background-color: #85db53;"></td>
     <td style="background-color: #85db53;"></td>
     <td></td>
@@ -1159,13 +1231,12 @@ La couleur <span style="color: #3993fa;">#3993fa</span> a été utilisé afin de
     <td></td>
     <td></td>
     <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td style="background-color: #85db53;"></td>
+    <td style="background-color: #85db53;"></td>
+    <td style="background-color: #85db53;"></td>
+    <td style="background-color: #85db53;"></td>
+    <td style="background-color: #85db53;"></td>
+    <td style="background-color: #85db53;"></td>
     <td></td>
     <td></td>
     <td></td>
@@ -1222,30 +1293,30 @@ La couleur <span style="color: #3993fa;">#3993fa</span> a été utilisé afin de
     <td></td>
     <td></td>
   </tr>
-  <tr>
-  <td><b>S.18</b> Gestion des accès</td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
+    <tr>
+    <td><b>S.19</b> Création du dépôt Git</td>
+    <td></td>
+    <td></td>
     <td style="background-color: #85db53;"></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
+    <td style="background-color: #85db53;"></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
   </tr>
   <tr>
     <td><b>S1.</b> Inscription</td>
@@ -1255,7 +1326,6 @@ La couleur <span style="color: #3993fa;">#3993fa</span> a été utilisé afin de
     <td style="background-color: #85db53;"></td>
     <td></td>
     <td style="background-color: #85db53;"></td>
-    <td></td>
     <td></td>
     <td></td>
     <td></td>
@@ -1297,6 +1367,31 @@ La couleur <span style="color: #3993fa;">#3993fa</span> a été utilisé afin de
     <td></td>
     <td></td>
     <td></td>
+  </tr>
+    <tr>
+  <td><b>S.18</b> Gestion des accès</td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+    <td style="background-color: #85db53;"></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
   </tr>
   <tr>
     <td><b>S.3</b> Création d'un événement</td>
@@ -1374,6 +1469,125 @@ La couleur <span style="color: #3993fa;">#3993fa</span> a été utilisé afin de
     <td></td>
   </tr>
   <tr>
+    <td><b>S.5</b> Inscription à un événement ouvert</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td style="background-color: #85db53;"></td>
+    <td style="background-color: #85db53;"></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+    <tr>
+  <td><b>S.6</b> Inscription à un événement privé</td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+    <td style="background-color: #85db53;"></td>
+    <td style="background-color: #85db53;"></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  </tr>
+</table>
+
+<div style='page-break-after: always; break-after: page;'></div>
+
+<table style="font-size: 12px;">
+  <tr style="text-align: center;">
+    <th>Jour</th>
+    <th colspan="2">J1<div style="font-weight:normal;">25.05.2020</div></th>
+    <th colspan="2">J2<div style="font-weight:normal;">26.05.2020</div></th>
+    <th colspan="2">J3<div style="font-weight:normal;">27.05.2020</div></th>
+    <th colspan="2">J4<div style="font-weight:normal;">28.05.2020</div></th>
+    <th colspan="2">J5<div style="font-weight:normal;">29.05.2020</div></th>
+    <th colspan="2">J6<div style="font-weight:normal;">02.06.2020</div></th>
+    <th colspan="2">J7<div style="font-weight:normal;">03.06.2020</div></th>
+    <th colspan="2">J8<div style="font-weight:normal;">04.06.2020</div></th>
+    <th colspan="2">J9<div style="font-weight:normal;">05.06.2020</div></th>
+    <th colspan="2">J10<div style="font-weight:normal;">08.06.2020</div></th>
+    <th colspan="2">J11<div style="font-weight:normal;">09.06.2020</div></th>
+  </tr>
+    <tr>
+    <td><b>S.17</b> Gestion des événements</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td style="background-color: #85db53;"></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><b>S.9</b> Invitation à un événement privé</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td style="background-color: #3993fa;"></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+    <tr>
   <td><b>S.13</b> À propos de l'événement</td>
     <td></td>
     <td></td>
@@ -1399,76 +1613,32 @@ La couleur <span style="color: #3993fa;">#3993fa</span> a été utilisé afin de
     <td></td>
   </tr>
   <tr>
-    <td><b>S.5</b> Inscription à un événement ouvert</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td style="background-color: #85db53;"></td>
-    <td style="background-color: #85db53;"></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-</table>
-
-<div style='page-break-after: always; break-after: page;'></div>
-
-<table>
-  <tr style="text-align: center;">
-    <th>Jour</th>
-    <th colspan="2">J1<div style="font-weight:normal;">25.05.2020</div></th>
-    <th colspan="2">J2<div style="font-weight:normal;">26.05.2020</div></th>
-    <th colspan="2">J3<div style="font-weight:normal;">27.05.2020</div></th>
-    <th colspan="2">J4<div style="font-weight:normal;">28.05.2020</div></th>
-    <th colspan="2">J5<div style="font-weight:normal;">29.05.2020</div></th>
-    <th colspan="2">J6<div style="font-weight:normal;">02.06.2020</div></th>
-    <th colspan="2">J7<div style="font-weight:normal;">03.06.2020</div></th>
-    <th colspan="2">J8<div style="font-weight:normal;">04.06.2020</div></th>
-    <th colspan="2">J9<div style="font-weight:normal;">05.06.2020</div></th>
-    <th colspan="2">J10<div style="font-weight:normal;">08.06.2020</div></th>
-    <th colspan="2">J11<div style="font-weight:normal;">09.06.2020</div></th>
-  <tr>
-  <td><b>S.6</b> Inscription à un événement privé</td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-    <td style="background-color: #85db53;"></td>
-    <td style="background-color: #85db53;"></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  </tr>
-  </tr>
-  <tr>
     <td><b>S.7</b> Validation participation à un événement</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td style="background-color: #85db53;"></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+    <tr>
+    <td><b>S.14</b> Affichage de la page de profil</td>
     <td></td>
     <td></td>
     <td></td>
@@ -1568,31 +1738,6 @@ La couleur <span style="color: #3993fa;">#3993fa</span> a été utilisé afin de
   <td></td>
   </tr>
   <tr>
-    <td><b>S.14</b> Affichage de la page de profil</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td style="background-color: #85db53;"></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
     <td><b>S.16</b> Suppression du profil</td>
     <td></td>
     <td></td>
@@ -1643,56 +1788,6 @@ La couleur <span style="color: #3993fa;">#3993fa</span> a été utilisé afin de
   <td></td>
   </tr>
   <tr>
-    <td><b>S.17</b> Gestion des événements</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td style="background-color: #85db53;"></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td><b>S.9</b> Invitation à un événement privé</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td style="background-color: #3993fa;"></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
     <td>Tests de toute l'application et correction des bugs</td>
     <td></td>
     <td></td>
@@ -1712,7 +1807,7 @@ La couleur <span style="color: #3993fa;">#3993fa</span> a été utilisé afin de
     <td></td>
     <td></td>
     <td></td>
-    <td></td>
+    <td style="background-color: #85db53;"></td>
     <td></td>
     <td></td>
     <td></td>
@@ -1737,10 +1832,10 @@ La couleur <span style="color: #3993fa;">#3993fa</span> a été utilisé afin de
     <td style="background-color: #85db53;"></td>
     <td style="background-color: #85db53;"></td>
     <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td style="background-color: #85db53;"></td>
+    <td style="background-color: #85db53;"></td>
+    <td style="background-color: #85db53;"></td>
+    <td style="background-color: #85db53;"></td>
     </tr>
   <tr>
     <td>Rédaction du journal de bord</td>
@@ -1762,10 +1857,10 @@ La couleur <span style="color: #3993fa;">#3993fa</span> a été utilisé afin de
     <td style="background-color: #85db53;"></td>
     <td style="background-color: #85db53;"></td>
     <td style="background-color: #85db53;"></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td style="background-color: #85db53;"></td>
+    <td style="background-color: #85db53;"></td>
+    <td style="background-color: #85db53;"></td>
+    <td style="background-color: #85db53;"></td>
   </tr>
 </table>
 
@@ -1777,13 +1872,13 @@ La couleur <span style="color: #3993fa;">#3993fa</span> a été utilisé afin de
 
 WEGO utilise une base de données MySQL afin de stocker les utilisateurs ainsi que les événements, le événements auxquels ils participent ou sont invités. La version utilisé est MySQL 8.0.18. J'ai utilisé InnoDB comme moteur de stockage et _utf8_bin_ comme interclassement.
 
-Le modèle de la base de données à été fournis dans l'énoncé.
+Le modèle utilisé est différent de celui dans l'énoncé car j'ai rajouté la colonne `salt` dans la table _user_ afin d'avoir une meilleure sécurité pour les mots de passe.
 
 <p>
-  <img src="assets/schema_bdd.jpg">
+  <img src="assets/schema_bdd.png">
 </p>
 <p style="text-align: center;">
-  <em >Le modèle d ela base données fournis dans l'énoncé</em>
+  <em >Le modèle de la base données modifié</em>
 </p>
 
 #### Dictionnaire de données
@@ -1799,6 +1894,7 @@ Le modèle de la base de données à été fournis dans l'énoncé.
 | email     | varchar(100) | Non  |        |
 | password  | varchar(100) | Non  |        |
 | telephone | varchar(50)  | Oui  | NULL   |
+| salt      | varchar(100) | Non  |        |
 
 **evenement**
 
@@ -1830,7 +1926,34 @@ Le modèle de la base de données à été fournis dans l'énoncé.
 | idUser      | int(11) | Non  |        |
 | idEvenement | int(11) | Non  |        |
 
+<div style='page-break-after: always; break-after: page;'></div>
+
 #### Structure
+
+La structure utilisé pour le développement du projet est l'architecture trois tiers:
+
+<img style="float: right; margin-left: 3px; padding-left: 100px;" src="./assets/tree_map.png">
+
+- **/App/** Dossier qui contient les dossiers qui font la logique de l'application.
+  - **/App/Controller/** Dossier qui contient les classes du projets.
+  - **/App/php/** Dossier qui contient tous le traitement des données de l'application
+- **/config/** Dossier qui contient le fichier qui contient les constantes de connexion à la base de données et les constantes pour la connexion à l'adresse mail du mailer.
+- **/database/** Dossier qui contient le schéma de la base de données.
+- _/vendor/_ Dossier qui contient toutes les dépendances PHP qui sont géré par Composer.
+- **/view/** Dossier qui contient tout l'affichage de l'application. Les fichiers dans ce dossier sont les pages que l'utilisateur peut voir.
+- **/view/assets/** Dossier qui contient toutes les images du site
+- **/view/assets/img/** Dossier qui contient les images du site.
+- **view/assets/upload/** Dossier qui contient les images des utilisateurs choisis pour leur événement.
+- **/view/css/** Dossier qui style du style.
+- **/view/includes/** Dossier qui contient les fichiers qui sont inclus toutes les pages visibles par l'utilisateur.
+- **/view/js/** Dossier qui contient les fichiers JavaScript
+
+<p style="color: #999;">
+  <b>Les dossiers en gras sont les plus importants.</b><br>
+  <i>Le dossier en italique contient des fichiers générés automatiquement.</i>
+</p>
+
+<div style='page-break-after: always; break-after: page;'></div>
 
 #### Classes
 
@@ -1839,10 +1962,6 @@ Cette classe me permet de déclarer ma base de données _MySQL_ en _Singleton_.
 
 **WE GO\public\App\Controller\ExtendedPdo.php**
 Cette classe me permet de faire des transactions en parallèles.
-
-#### Environnement
-
-<div style='page-break-after: always; break-after: page;'></div>
 
 ## Librairies et outils externes
 
@@ -1895,6 +2014,34 @@ La documentation de mon projet est disponible à l'adresse suivante : <https://g
 <div style='page-break-after: always; break-after: page;'></div>
 
 ## Analyse des fonctionnalités majeures
+
+#### Affichage des événement publique sur la page d'accueil
+
+Lorsqu'un utilisateur non connectée arrive sur la page d'accueil de WEGO, il peut voir les événements publiques qui commence dans une heure au plus tôt. Les événements sont affichés via un call Ajax. Les événements sont affiché sous formes de cartes qui contiennent les informations majeures de celui-ci.
+
+#### Inscription et connexion d'un utilisateur
+
+Un utilisateur anonyme peut créer un compte se connecter à celui-ci autant de fois qu'il le souhaite.
+
+#### Suppression du profile
+
+Un utilisateur peut supprimer son profile à condition qu'il n'y ait aucun participant aux événement qu'il a crée.
+
+#### Création d'un événement publique
+
+Un utilisateur authentifié peut crée un événement publique qui contient un nom, un court descriptif, un lieu, une date de début, une heure de début, une date de fin, heure de fin, un nombre maximal de participants et une image qui n'est pas obligatoire.
+
+#### Création d'un événement privé
+
+Un utilisateur authentifié peut crée un événement publique qui contient un nom, un court descriptif, un lieu, une date de début, une heure de début, une date de fin, heure de fin, un nombre maximal de participants, une image qui n'est pas obligatoire et une liste d'invités.
+
+#### Inscription à un événement publique
+
+Un utilisateur authentifié peut participer à un événement publique tant qu'il y a de la place.
+
+#### Inscription à un événement privé
+
+Un utilisateur authentifié peut participer à un événement privé à condition qu'il soit invité.
 
 <div style='page-break-after: always; break-after: page;'></div>
 
@@ -2047,7 +2194,7 @@ Les scénarios des tests sont détaillés afin que n'importe quelle personne pui
 |   **User Story**    | S.5 Inscription à un événement ouvert                                                                                                                                                                                                                                                                             |
 |    **Situation**    | **Etant donné que** je suis un utilisateur anonyme _et_ que l'événement `Rentrée techniciens` m'intéresse _et_ n'est pas encore passé **quand** j'arrive sur la page de l'événement `Rentrée techniciens` il n'y a pas de bouton pour m'inscrire à l'événement **alors** je ne peux pas m'inscrire à l'événement. |
 | **Résultat obtenu** | Un message d'information apparaît en haut à droite avec le texte `Vous ne pouvez pas participer à l'événement sans être connecté` _et_ je reste sur la page de l'événement.                                                                                                                                       |
-|     **Statut**      | ❌KO                                                                                                                                                                                                                                                                                                              |
+|     **Statut**      | ✔ OK                                                                                                                                                                                                                                                                                                              |
 
 |         Nom         | 5.1 Inscription à un événement privé (<span style="color:#27c229">situation valides</span>)                                                                                                                                                                                                                                                                                                                                                          |
 | :-----------------: | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -2237,67 +2384,161 @@ Les scénarios des tests sont détaillés afin que n'importe quelle personne pui
 
 | Numéro de test | J0 <div style="font-weight:normal;">25.05.2020</div> | J1 <div style="font-weight:normal;">26.05.2020</div> | J2 <div style="font-weight:normal;">27.05.2020</div> | J3 <div style="font-weight:normal;">28.05.2020</div> | J4 <div style="font-weight:normal;">29.05.2020</div> | J5 <div style="font-weight:normal;">02.06.2020</div> | J6 <div style="font-weight:normal;">03.06.2020</div> | J7 <div style="font-weight:normal;">04.06.2020</div> | J8 <div style="font-weight:normal;">05.06.2020</div> | J9 <div style="font-weight:normal;">08.06.2020</div> | J10 <div style="font-weight:normal;">09.06.2020</div> |
 | -------------- | ---------------------------------------------------- | ---------------------------------------------------- | ---------------------------------------------------- | ---------------------------------------------------- | ---------------------------------------------------- | ---------------------------------------------------- | ---------------------------------------------------- | ---------------------------------------------------- | ---------------------------------------------------- | ---------------------------------------------------- | ----------------------------------------------------- |
-| 1.1            | ❌                                                   | ✔                                                    | ✔                                                    | ✔                                                    | ✔                                                    | ✔                                                    | ✔                                                    | ✔                                                    | ❌                                                   | ❌                                                   | ❌                                                    |
-| 1.2            | ❌                                                   | ✔                                                    | ✔                                                    | ✔                                                    | ✔                                                    | ✔                                                    | ✔                                                    | ✔                                                    | ❌                                                   | ❌                                                   | ❌                                                    |
-| 1.3            | ❌                                                   | ✔                                                    | ✔                                                    | ✔                                                    | ✔                                                    | ✔                                                    | ✔                                                    | ✔                                                    | ❌                                                   | ❌                                                   | ❌                                                    |
-| 1.4            | ❌                                                   | ✔                                                    | ✔                                                    | ✔                                                    | ✔                                                    | ✔                                                    | ✔                                                    | ✔                                                    | ❌                                                   | ❌                                                   | ❌                                                    |
-| 1.5            | ❌                                                   | ✔                                                    | ✔                                                    | ✔                                                    | ✔                                                    | ✔                                                    | ✔                                                    | ✔                                                    | ❌                                                   | ❌                                                   | ❌                                                    |
-| 1.6            | ❌                                                   | ✔                                                    | ✔                                                    | ✔                                                    | ✔                                                    | ✔                                                    | ✔                                                    | ✔                                                    | ❌                                                   | ❌                                                   | ❌                                                    |
-| 2.1            | ❌                                                   | ✔                                                    | ✔                                                    | ✔                                                    | ✔                                                    | ✔                                                    | ✔                                                    | ✔                                                    | ❌                                                   | ❌                                                   | ❌                                                    |
-| 2.2            | ❌                                                   | ✔                                                    | ✔                                                    | ✔                                                    | ✔                                                    | ✔                                                    | ✔                                                    | ✔                                                    | ❌                                                   | ❌                                                   | ❌                                                    |
-| 2.3            | ❌                                                   | ✔                                                    | ✔                                                    | ✔                                                    | ✔                                                    | ✔                                                    | ✔                                                    | ✔                                                    | ❌                                                   | ❌                                                   | ❌                                                    |
-| 3.1            | ❌                                                   | ❌                                                   | ✔                                                    | ✔                                                    | ✔                                                    | ✔                                                    | ✔                                                    | ✔                                                    | ❌                                                   | ❌                                                   | ❌                                                    |
-| 3.2            | ❌                                                   | ❌                                                   | ✔                                                    | ✔                                                    | ✔                                                    | ✔                                                    | ✔                                                    | ✔                                                    | ❌                                                   | ❌                                                   | ❌                                                    |
-| 3.3            | ❌                                                   | ❌                                                   | ❌                                                   | ✔                                                    | ✔                                                    | ✔                                                    | ✔                                                    | ✔                                                    | ❌                                                   | ❌                                                   | ❌                                                    |
-| 3.4            | ❌                                                   | ❌                                                   | ✔                                                    | ✔                                                    | ✔                                                    | ✔                                                    | ✔                                                    | ✔                                                    | ❌                                                   | ❌                                                   | ❌                                                    |
-| 3.5            | ❌                                                   | ❌                                                   | ✔                                                    | ✔                                                    | ✔                                                    | ✔                                                    | ✔                                                    | ✔                                                    | ❌                                                   | ❌                                                   | ❌                                                    |
-| 3.6            | ❌                                                   | ❌                                                   | ✔                                                    | ✔                                                    | ✔                                                    | ✔                                                    | ✔                                                    | ✔                                                    | ❌                                                   | ❌                                                   | ❌                                                    |
-| 4.1            | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ✔                                                    | ✔                                                    | ✔                                                    | ✔                                                    | ❌                                                   | ❌                                                   | ❌                                                    |
-| 4.2            | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ✔                                                    | ✔                                                    | ✔                                                    | ✔                                                    | ❌                                                   | ❌                                                   | ❌                                                    |
-| 4.3            | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ✔                                                    | ✔                                                    | ✔                                                    | ❌                                                   | ❌                                                   | ❌                                                    |
-| 4.4            | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                    |
-| 5.1            | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ✔                                                    | ✔                                                    | ❌                                                   | ✔                                                    | ❌                                                   | ❌                                                   | ❌                                                    |
-| 6.1            | ❌                                                   | ❌                                                   | ✔                                                    | ✔                                                    | ✔                                                    | ✔                                                    | ❌                                                   | ✔                                                    | ❌                                                   | ❌                                                   | ❌                                                    |
-| 7.1            | ❌                                                   | ❌                                                   | ❌                                                   | ✔                                                    | ✔                                                    | ✔                                                    | ❌                                                   | ✔                                                    | ❌                                                   | ❌                                                   | ❌                                                    |
-| 7.2            | ❌                                                   | ❌                                                   | ❌                                                   | ✔                                                    | ✔                                                    | ✔                                                    | ❌                                                   | ✔                                                    | ❌                                                   | ❌                                                   | ❌                                                    |
-| 8.1            | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ✔                                                    | ❌                                                   | ✔                                                    | ❌                                                   | ❌                                                   | ❌                                                    |
-| 9.1            | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ✔                                                    | ❌                                                   | ✔                                                    | ❌                                                   | ❌                                                   | ❌                                                    |
-| 9.2            | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ✔                                                    | ❌                                                   | ✔                                                    | ❌                                                   | ❌                                                   | ❌                                                    |
-| 10.1           | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ✔                                                    | ✔                                                    | ❌                                                   | ❌                                                   | ❌                                                    |
-| 10.2           | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ✔                                                    | ✔                                                    | ❌                                                   | ❌                                                   | ❌                                                    |
-| 11.1           | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ✔                                                    | ✔                                                    | ❌                                                   | ❌                                                   | ❌                                                    |
-| 11.2           | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                    |
-| 11.3           | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ✔                                                    | ✔                                                    | ❌                                                   | ❌                                                   | ❌                                                    |
-| 11.4           | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                    |
-| 12.1           | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ✔                                                    | ✔                                                    | ❌                                                   | ❌                                                   | ❌                                                    |
-| 13.1           | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ✔                                                    | ❌                                                   | ❌                                                   | ❌                                                    |
-| 13.2           | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                    |
-| 13.3           | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                    |
-| 13.4           | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                    |
-| 14.1           | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ✔                                                    | ❌                                                   | ❌                                                    |
-| 14.2           | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ✔                                                    | ❌                                                   | ❌                                                    |
-| 15.1           | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ✔                                                    | ❌                                                   | ❌                                                    |
-| 15.2           | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ✔                                                    | ❌                                                   | ❌                                                    |
-| 15.3           | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ✔                                                    | ❌                                                   | ❌                                                    |
-| 15.4           | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ✔                                                    | ❌                                                   | ❌                                                    |
-| 15.5           | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ✔                                                    | ❌                                                   | ❌                                                    |
-| 15.6           | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ✔                                                    | ❌                                                   | ❌                                                    |
+| 1.1            | ❌                                                   | ✔                                                    | ✔                                                    | ✔                                                    | ✔                                                    | ✔                                                    | ✔                                                    | ✔                                                    | ✔                                                    | ✔                                                    | ❌                                                    |
+| 1.2            | ❌                                                   | ✔                                                    | ✔                                                    | ✔                                                    | ✔                                                    | ✔                                                    | ✔                                                    | ✔                                                    | ✔                                                    | ✔                                                    | ❌                                                    |
+| 1.3            | ❌                                                   | ✔                                                    | ✔                                                    | ✔                                                    | ✔                                                    | ✔                                                    | ✔                                                    | ✔                                                    | ✔                                                    | ✔                                                    | ❌                                                    |
+| 1.4            | ❌                                                   | ✔                                                    | ✔                                                    | ✔                                                    | ✔                                                    | ✔                                                    | ✔                                                    | ✔                                                    | ✔                                                    | ✔                                                    | ❌                                                    |
+| 1.5            | ❌                                                   | ✔                                                    | ✔                                                    | ✔                                                    | ✔                                                    | ✔                                                    | ✔                                                    | ✔                                                    | ✔                                                    | ✔                                                    | ❌                                                    |
+| 1.6            | ❌                                                   | ✔                                                    | ✔                                                    | ✔                                                    | ✔                                                    | ✔                                                    | ✔                                                    | ✔                                                    | ✔                                                    | ✔                                                    | ❌                                                    |
+| 2.1            | ❌                                                   | ✔                                                    | ✔                                                    | ✔                                                    | ✔                                                    | ✔                                                    | ✔                                                    | ✔                                                    | ✔                                                    | ✔                                                    | ❌                                                    |
+| 2.2            | ❌                                                   | ✔                                                    | ✔                                                    | ✔                                                    | ✔                                                    | ✔                                                    | ✔                                                    | ✔                                                    | ✔                                                    | ✔                                                    | ❌                                                    |
+| 2.3            | ❌                                                   | ✔                                                    | ✔                                                    | ✔                                                    | ✔                                                    | ✔                                                    | ✔                                                    | ✔                                                    | ✔                                                    | ✔                                                    | ❌                                                    |
+| 3.1            | ❌                                                   | ❌                                                   | ✔                                                    | ✔                                                    | ✔                                                    | ✔                                                    | ✔                                                    | ✔                                                    | ✔                                                    | ✔                                                    | ❌                                                    |
+| 3.2            | ❌                                                   | ❌                                                   | ✔                                                    | ✔                                                    | ✔                                                    | ✔                                                    | ✔                                                    | ✔                                                    | ✔                                                    | ✔                                                    | ❌                                                    |
+| 3.3            | ❌                                                   | ❌                                                   | ❌                                                   | ✔                                                    | ✔                                                    | ✔                                                    | ✔                                                    | ✔                                                    | ✔                                                    | ✔                                                    | ❌                                                    |
+| 3.4            | ❌                                                   | ❌                                                   | ✔                                                    | ✔                                                    | ✔                                                    | ✔                                                    | ✔                                                    | ✔                                                    | ✔                                                    | ✔                                                    | ❌                                                    |
+| 3.5            | ❌                                                   | ❌                                                   | ✔                                                    | ✔                                                    | ✔                                                    | ✔                                                    | ✔                                                    | ✔                                                    | ✔                                                    | ✔                                                    | ❌                                                    |
+| 3.6            | ❌                                                   | ❌                                                   | ✔                                                    | ✔                                                    | ✔                                                    | ✔                                                    | ✔                                                    | ✔                                                    | ✔                                                    | ✔                                                    | ❌                                                    |
+| 4.1            | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ✔                                                    | ✔                                                    | ✔                                                    | ✔                                                    | ✔                                                    | ✔                                                    | ❌                                                    |
+| 4.2            | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ✔                                                    | ✔                                                    | ✔                                                    | ✔                                                    | ✔                                                    | ✔                                                    | ❌                                                    |
+| 4.3            | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ✔                                                    | ✔                                                    | ✔                                                    | ✔                                                    | ✔                                                    | ❌                                                    |
+| 4.4            | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ✔                                                    | ✔                                                    | ❌                                                    |
+| 5.1            | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ✔                                                    | ✔                                                    | ❌                                                   | ✔                                                    | ✔                                                    | ✔                                                    | ❌                                                    |
+| 6.1            | ❌                                                   | ❌                                                   | ✔                                                    | ✔                                                    | ✔                                                    | ✔                                                    | ❌                                                   | ✔                                                    | ✔                                                    | ✔                                                    | ❌                                                    |
+| 7.1            | ❌                                                   | ❌                                                   | ❌                                                   | ✔                                                    | ✔                                                    | ✔                                                    | ❌                                                   | ✔                                                    | ✔                                                    | ✔                                                    | ❌                                                    |
+| 7.2            | ❌                                                   | ❌                                                   | ❌                                                   | ✔                                                    | ✔                                                    | ✔                                                    | ❌                                                   | ✔                                                    | ✔                                                    | ✔                                                    | ❌                                                    |
+| 8.1            | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ✔                                                    | ❌                                                   | ✔                                                    | ✔                                                    | ✔                                                    | ❌                                                    |
+| 9.1            | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ✔                                                    | ❌                                                   | ✔                                                    | ✔                                                    | ✔                                                    | ❌                                                    |
+| 9.2            | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ✔                                                    | ❌                                                   | ✔                                                    | ✔                                                    | ✔                                                    | ❌                                                    |
+| 10.1           | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ✔                                                    | ✔                                                    | ✔                                                    | ✔                                                    | ❌                                                    |
+| 10.2           | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ✔                                                    | ✔                                                    | ✔                                                    | ✔                                                    | ❌                                                    |
+| 11.1           | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ✔                                                    | ✔                                                    | ✔                                                    | ✔                                                    | ❌                                                    |
+| 11.2           | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ✔                                                    | ✔                                                    | ❌                                                    |
+| 11.3           | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ✔                                                    | ✔                                                    | ✔                                                    | ✔                                                    | ❌                                                    |
+| 11.4           | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ✔                                                    | ✔                                                    | ❌                                                    |
+| 12.1           | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ✔                                                    | ✔                                                    | ✔                                                    | ✔                                                    | ❌                                                    |
+| 13.1           | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ✔                                                    | ✔                                                    | ✔                                                    | ❌                                                    |
+| 13.2           | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ✔                                                    | ✔                                                    | ❌                                                    |
+| 13.3           | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ✔                                                    | ✔                                                    | ❌                                                    |
+| 13.4           | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ✔                                                    | ✔                                                    | ❌                                                    |
+| 14.1           | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ✔                                                    | ✔                                                    | ❌                                                    |
+| 14.2           | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ✔                                                    | ✔                                                    | ❌                                                    |
+| 15.1           | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ✔                                                    | ✔                                                    | ❌                                                    |
+| 15.2           | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ✔                                                    | ✔                                                    | ❌                                                    |
+| 15.3           | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ✔                                                    | ✔                                                    | ❌                                                    |
+| 15.4           | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ✔                                                    | ✔                                                    | ❌                                                    |
+| 15.5           | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ✔                                                    | ✔                                                    | ❌                                                    |
+| 15.6           | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ❌                                                   | ✔                                                    | ✔                                                    | ❌                                                    |
 
 <div style='page-break-after: always; break-after: page;'></div>
 
 ## Conclusion
 
-<div style='page-break-after: always; break-after: page;'></div>
+#### Difficultés rencontrées
+
+J'ai rencontré peu de problème au cours de mon projet
+
+#### Variantes de solutions et choix
+
+#### Améliorations possibles
+
+**Architecture technique**
+
+La structure de l'application actuelle est fonctionnelle, la partie interface est presque totalement séparé de la parti qui s'occupe du traitement du serveur. Cependant, quelques modifications pourraient être apportés si l'application venait à grandir.
+
+Côté front-end (JavaScript), il serait nécessaire d'utiliser ESLint qui ferait en sorte d'optimiser mon code JavaScript car celui-si contient un fichier qui se rapproche des 1000 lignes.
+
+Côté back-end (PHP), il serait nécessaire d'ajouter à Composer la dépendances PHP_CodeSniffer afin d'optimiser le code car actuellement l'application possède un fichier de plus de 1000 lignes.
+
+**Fonctionnalités**
+
+L'application WEB actuelle correspond aux demandes du cahiers des charges, mais je pense qu'il pourrait avoir autres fonctionnalités qui pourraient être ajouter comme:
+* Faire en sorte qu'on reçoivent une notification lorsqu'on est invités à un événement.
+* Pouvoir modifier un événement publique en événement privé.
+* Pouvoir avoir une photo de profile.
+* Utiliser une API qui permettrait d'autocompléter la saisie d'un lieu.
+* Lors de l'inscription envoyé un token par mail pour valider l'inscription de l'utilisateur.
+
+#### Bilan personnel
+
+J'ai bien aimé travailler sur WEGO car j'adore la programmation WEB et de plus c'est un des premiers projets que j'élabore de A à Z ce qui m'a fait apprendre plein choses tel que l'envoie de mail depuis une application WEB ou même le fait de tenir un journal de bord afin de savoir les qui ont été bloquant.
+
+#### Remerciements
+
+Je tiens à remercier:
+
+- Mme Mota qui m'a donné la théorie pour rédiger une documentation complète et qui m'a aussi suivis durant tout mon TPI.
+- Tanguy Cavagna avec qui j'ai j'ai partagé lors de la réalisation de mon TPI, ce qui m'a permis de penser différemment sur la rédaction de ma documentation ou sur la rédaction de mon code.
+
+<div style='page-break-after:1§ always; break-after: page;'></div>
 
 ## Annexes
 
 #### Glossaire
 
+**Termes métiers**
+
+<table>
+  <tr>
+    <td style="white-space: nowrap; padding-right: 15px;"><b>Événement</b></td>
+    <td>Un événement est un lieu de rencontre avec les participants de celui-ci afin d'effectuer une action.</td>
+  </tr>
+  <tr>
+    <td style="white-space: nowrap; padding-right: 15px;"><b>Utilisateur</b></td>
+    <td>Personne qui utilise WEGO et qui participe au minimum à un événement ou qui a créé au moins un événement.</td>
+  </tr>
+</table>
+
+**Termes techniques**
+
+<table>
+  <tr>
+    <td style="white-space: nowrap; padding-right: 15px;"><b>Back-end</b></td>
+    <td>Partie d'une application qui concerne tout ce qui se passe côté serveur (par exemple: base de données, authentification...).</td>
+  </tr>
+  <tr>
+    <td style="white-space: nowrap; padding-right: 15px;"><b>Front-end</b></td>
+    <td>Partie d'une application qui concerne tout ce qui se passe côté de l'utilisateur final (par exemple: l'apparence de l'application).</td>
+  </tr>
+  <tr>
+    <td style="white-space: nowrap; padding-right: 15px;"><b>Librairies</b> (ou bibliothèque)</td>
+    <td>Une brique logicielle externe au projet qui conçues pour être utilisé par d'autre développeurs.</td>
+  </tr>
+</table>
+
 #### Sources
 
-- <https://www.php.net/>
-- <https://stackoverflow.com/>
-- <https://github.com/PHPMailer/PHPMailer/blob/master/README.md>
+Lors du déroulement de mon projet, j'ai utilisé les site WEB suivant afin de trouver de l'aide :
+
+- La documentation officiel PHP : <https://www.php.net/>
+- Le site de question/réponse StackOverflow : <https://stackoverflow.com/>
+- La documentation de PHPMailer : <https://github.com/PHPMailer/PHPMailer>
+- Le site de didacticiel le développement WEB : <https://www.w3schools.com/>
+
+<div style='page-break-after: always; break-after: page;'></div>
+
+#### Résumé TPI
+
+<table style="color: #999;">
+  <tr style="border: none;">
+    <td rowspan="3" style="border: none;"><img src="./assets/logoWego.svg" height="125"></td>
+    <td style="border: none;">Hoarau Nicolas - Juin 2020</td>
+  </tr>
+  <tr style="border: none;">
+    <td style="border: none;">École de métiers: CFPT Informatique, Petit-Lancy GE</td>
+  </tr>
+  <tr style="border: none;">
+    <td style="border: none;">Entreprise formatrice :  Formation plein temps (en école)</td>
+  </tr>
+</table>
+
+**Situation de départ :** Dans le cadre du _Travail Pratique Individuel_ (TPI), qui est l'examen qui valide mon CFC d'informaticien, j'ai dû réaliser, sur une durée de 88 heures (11 jours) et sur la base d'un énoncé imposé, une application WEB qui permet de gérer des événements publiques ou privés. Les utilisateurs doivent pouvoir créer un compte et s'authentifier afin de pouvoir participer ou de pouvoir créer des événements publiques ou privés. Dans l'application retrouve d'autres fonctionnalités comme le fait de devoir créer un liste d'invités lorsqu'on créer un événement privé et de pouvoir la modifier après la création de l'événement.
+
+**Mise en œuvre :** Le projet a été réalisé en JavaScript pour le front-end et en PHP et MySQL côté serveur. Le style du site a été conçus de sorte à ce qu'il soit UI Design. Toutes les données du site sont chargées via des requêtes AJAX. Afin de réaliser ce projet la méthodologie en 6 étapes a été utilisée tout au long du projet afin d'organiser le travail. Les différents points du cahier des ont été transformés en _user stories_ ce qui permet d'exprimer la fonctionnalités du point de vue des utilisateurs finaux. Il y a un protocole de tests précis qui a été élaboré afin de m'assurer que l'implémentation soit conforme aux demandes du cahier des charges, le protocole contient plusieurs scénarios à respecté afin de tester l'application de différentes manières. Un journal de bord a été rédigé quotidiennement lors du déroulement du projet afin de lister les imprévus, les problèmes rencontré et les différents choix effectués.
+
+**Résultats :** Les utilisateurs finaux ont à leur disposition une application web complète et qui est simple d'utilisation. Toutes les demandes du cahier des charges ont put être complétées. La structure du site respecte la structure demandée dans le cahier des charges. Une documentation technique ainsi qu'une documentation utilisateur ont été rédigées.
+
+<div style='page-break-after: always; break-after: page;'></div>
 
 #### Manuel utilisateur
 

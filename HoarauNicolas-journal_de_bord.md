@@ -360,7 +360,7 @@ Les objectifs de la journée sont d'implémenter le rappel de la participation �
 
 **08h00:** Je commence ma journée en rédigeant les scénarios du rappel à un événement et la suppression d'un événement.
 
-**08h35:** Je finis de rédiger les scénarios du rappel à un événement, de la suppression d'un événement et de l'afficage de la profile et je commence à implémenter le mail de rappel de la participation à un événement.
+**08h35:** Je finis de rédiger les scénarios du rappel à un événement, de la suppression d'un événement et de l'affichage de la profile et je commence à implémenter le mail de rappel de la participation à un événement.
 
 **10h35:** Je finis d'implémenter et de tester l'envois du mail qui rappel qu'un événement à lieu le lendemain. Et au lieu de faire la suppression d'un événement.
 
@@ -421,7 +421,7 @@ Les objectifs de la journée sont de finir la modification d'un événements, co
 
 **13h15:** Je finis ma pause midi et je reprends l'implémentation de la modification d'un événement.
 
-**14h30:** Je finis l'implémentation et les test de la modification d'un événement et je commence la rédaction de la supression du profil.
+**14h30:** Je finis l'implémentation et les test de la modification d'un événement et je commence la rédaction de la suppression du profil.
 
 **14h55:** Je finis la rédaction des scénarios pour la suppression du profil et je commence à implémenter la suppression du profile.
 
@@ -443,11 +443,15 @@ Les objectifs de la journée sont finir la suppression du profile et la faire la
 
 **08h00:** Je commence ma journée en travaillant sur la suppression du profile.
 
-**9h35:** Je finis la suppression du profile. Et je commence la rédaction des scénarios pour la modification du profile.
+**09h35:** Je finis la suppression du profile. Et je commence la rédaction des scénarios pour la modification du profile.
 
 **10h15:** Je finis la rédaction des scénarios pour la modification du profile. Et je commence l'implémentation de la modification du profile.
 
 **11h05:** J'ai un entretien avec Mme Mota afin de voir mon avancement.
+Lors de l'entretien j'ai pu demandé à Mme Mota:
+❔ Je ne vois pas ce qui est attendu dans le point A18 9 veut dire, pourriez-vous m'aider à comprendre ?
+
+> Ce qui est attendu dans ce point c'est qu'un utilisateur soit pouvoir créer un événement privé.
 
 **12h00:** Fin de l'entretien avec Mme Mota et je me remets à travailler sur la modification du profil.
 
@@ -459,15 +463,76 @@ Les objectifs de la journée sont finir la suppression du profile et la faire la
 
 **15h50:** Je finis la modification des événements et je rejoute une quatrième zone à la page `Gérer mes événements` afin d'avoir une partie qui contient tous les événements qu'on a crée.
 
-**16h30:** Je finis l'implémentation de la quatrième zone. Et je commence à faire l'affichage de la liste des invités pour le créateur d'un événement privé.
+**16h30:** Je finis l'implémentation de la quatrième zone. Et je relis mon énoncé du TPI afin d'être sûr que tous ce qui est demandé est complété.
 
-**17h00:** Je finis d'implémenter l'affichage de la liste d'invités pour le créateur d'un événement pri
+**16h40:** Je finis de relire mon énoncé et je vois qu'il me manque l'affichage de la liste des invités pour le créateur d'un événement privé alors, je commence à faire l'affichage de la liste des invités pour le créateur d'un événement privé.
 
-je relis mon énoncé du TPI afin d'être sûr que tous ce qui est demandé est complété.
+**17h10:** Je finis d'implémenter l'affichage de la liste d'invités pour le créateur d'un événement privé. Et je commence à créer un logo pour le site.
 
+**17h30:** Je finis le logo du site et je commence à faire une icône pour le site.
+
+**17h40:** Je finis l'icône pour le site et je commence l'implémentation le logo et l'icône dans le site.
+
+**17h55:** Je finis d'implémenter les le logo et l'icône dans le site et je finis ma journée.
 
 ### Bilan
 
+Aujourd'hui j'ai pu finir l'implémentation des fonctionnalités et j'ai même pu faire un logo pour le site. Après la relecture de l'énoncé j'ai pu demander à Mme Mota ce que voulais dire le point A18 9 car l'énoncé dit : `9.un utilisateur authentifié un utilisateur authentifié`.
 
+---
+
+## Lundi 08 Juin 2020
+
+### Objectifs
+
+Les objectifs de la journée sont de faire un test de tous le site afin d'être sûr que toutes les fonctionnalités fonctionnent, de faire la partie structure dans la documentation.
+
+### Déroulement
+
+**08h00:** Je commence ma journée en testant le site.
+
+**08h05:** Je vois qu'on ne peut pas supprimer d'événement privé à cause de la liste d'invités.
+
+**08h20:** Je finis la suppression d'un événement privé et je reprends le test de toutes les fonctionnalités du site.
+
+**09h10:** Je commence à implémenter la page `But du site`.
+
+**09h55:** Fin de l'implémentation de la page `But du site`. Et je commence à rédiger la partie structure dans la documentation.
+
+**11h00:** J'ai un entretien avec Mme Mota afin de voir mon avancement.
+
+**11h35:** Fin de l'entretien avec Mme Mota. Et je reprends la structure de la rédaction du projet.
+
+**13h35:** Je finis la rédaction de la de la structure du projet et je prends ma pause midi.
+
+**14h05:** Je finis ma pause du midi et je mts le schéma de la base de données.
+
+**14h35:** Je finis de mettre à jour la base de données dans la docuementation et je commence la description de l'application.
+
+**15h50:** Je finis de mettre la description de l'application et je commence à rédiger l'analyse des fonctionnalités majeures.
+
+**17h10:** Je finis ma journée.
+
+### Bilan
+
+Aujourd'hui j'ai pu faire le test de toute l'application WEB et corriger les quelques bugs que j'ai trouvé, j'ai aussi bien avancé dans ma documentation mais je n'ai pas eu le temps de finir la rédaction des fonctionnalités majeures donc je vais finir cette tâche demain.
+
+---
+
+## Mardi 09 Juin 2020
+
+### Objectifs
+
+Les objectifs de la journée sont finir la documenation technique, la documentation utilisateur et rendre le porjet.
+
+### Déroulement
+
+**08h00:** Je commence ma journée en reprenant le travail sur la rédaction de l'analyse des fonctionnalités majeures.
+
+**8h15:** N'arrivant pas à avancer sur ce sujet je décide de passer à la rédaction de la conclusion.
+
+**11h00:** J'ai un entretien avec Mme Mota afin de voir mon avancement.
+
+### Bilan
 
 ---
