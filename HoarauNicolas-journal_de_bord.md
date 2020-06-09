@@ -1,3 +1,7 @@
+# Journal de bord
+
+<div style='page-break-after: always; break-after: page;'></div>
+
 ## Lundi 25 Mai 2020
 
 ### Objectifs
@@ -25,7 +29,7 @@ Pour définir un ordre de priorité pour les _story_ du backlog, j'ai utilisé l
 - ❗❗ L'équivalent de **Must:** sera **Indispensable**
 - ❗ L'équivalent de **Should:** sera **Critique**
 
-J'ai choisis de retirer le **Could** et le **Won't** car je ne dois pas déborder du cahier des charges lors de cet examen mais si j'avais pu déborder du cahier des charges j'aurai pu mettre en **Should** le fait d'envoyer un mail aux personnes qui sont invités à un événement privé.
+J'ai choisi de retirer le **Could** et le **Won't** car je ne dois pas déborder du cahier des charges lors de cet examen, mais si j'avais pu déborder du cahier des charges j'aurais pu mettre en **Should** le fait d'envoyer un mail aux personnes qui sont invitées à un événement privé.
 
 Chaque _user story_ est rédigé sous le format suivant:
 
@@ -38,10 +42,10 @@ Chaque _user story_ est rédigé sous le format suivant:
 **10h45:** Je finis de rédiger le backlog et je commence à rédiger mon planning.
 Pour le planning prévisionnel et le planning effectif, j'ai utilisé la couleur <span style="color:#3993fa">#3993fa</span> afin de marquer les jalons.
 
-**11h30:** J'ai un entretien avec Mme Mota afin de voir mon avancement. afin de voir si ma matinée s'est bien déroulée et j'ai pu lui demander pour le point A19.
+**11h30:** J'ai un entretien avec Mme Mota afin de voir mon avancement afin de voir si ma matinée s'est bien déroulée et j'ai pu lui demander pour le point A19.
 Lors de l'entretien, on va vérifier si la syntaxe de mon backlog est correcte, répondre aux 2 questions que je me suis posé durant la matinée.
 
-❔ Je ne comprend pas ce qu'est la "zone" cité dans le point A19 15, pourriez-vous m'aider comprendre ?
+❔ Je ne comprends pas ce qu'est la "zone" citée dans le point A19 15, pourriez-vous m'aider comprendre ?
 
 > Réponse: La zone est dans la page sur laquelle on peut gérer ses événements.
 
@@ -94,7 +98,7 @@ Les objectifs de la journée sont finir de rédiger les scénarios, créer le d�
 
 **8h40:** Je commence la création de la base de données.
 
-**9h00:** J'ai finis de créer la base de données et de la mettre dans le serveur local. Je continue ma matinée en mettant la base de données dans la documentation.
+**9h00:** J'ai fini de créer la base de données et de la mettre dans le serveur local. Je continue ma matinée en mettant la base de données dans la documentation.
 
 **9h45:** Je finis de mettre les informations en lien avec la base de données dans la documentation. Ensuite je créer le dépôt Git.
 
@@ -106,7 +110,7 @@ Les objectifs de la journée sont finir de rédiger les scénarios, créer le d�
 
 Durant cet entretien j'ai demandé à Mme Mota :
 
-❔ Faut-il ajouter directement tous les utilisateurs d'un événements privé ou on peut en les ajouter en ajouter une partie et ajouter la suite après avoir créer l'événement ?
+❔ Faut-il ajouter directement tous les utilisateurs d'un événement privé ou on peut en les ajouter en ajouter une partie et ajouter la suite après avoir créer l'événement ?
 
 > Réponse: Il faut ajouter tous les invités lors de la création de l'événement.
 
@@ -114,7 +118,7 @@ J'ai aussi pris le choix avec Mme Mota de ne pas rédiger tous les scénarios de
 
 **12h10:** Fin de l'entretien avec Mme Mota et j'ai complété mon journal de bord.
 
-**12h30:** Correction des scénarios rédigé.
+**12h30:** Correction des scénarios rédigés.
 
 **12h40:** Je prends ma pause du midi.
 
@@ -128,7 +132,7 @@ J'ai aussi pris le choix avec Mme Mota de ne pas rédiger tous les scénarios de
 
 ### Bilan
 
-Aujourd'hui j'ai pu faire une grande partie de ce que je souhaitais, malheureusement je n'ai pas eu le temps faire la gestion des accès. J'ai fais le choix de ne pas faire tous les scénarios de tests d'un coup mais quelque scénario le matin et en fin de journée.
+Aujourd'hui j'ai pu faire une grande partie de ce que je souhaitais,, malheureusement je n'ai pas eu le temps faire la gestion des accès. J'ai fait le choix de ne pas faire tous les scénarios de tests d'un coup mais quelque scénario le matin et en fin de journée.
 
 ---
 
@@ -136,7 +140,7 @@ Aujourd'hui j'ai pu faire une grande partie de ce que je souhaitais, malheureuse
 
 ### Objectifs
 
-Les objectifs de la journée sont faire la gestion des accès, la création d'événement la création de la liste d'invités pour un événement privé, l'affichage des événements et la page qui contient les informations d'un événement.
+Les objectifs de la journée sont faire la gestion des accès, la création d'événements la création de la liste d'invités pour un événement privé, l'affichage des événements et la page qui contient les informations d'un événement.
 
 ### Déroulement
 
@@ -144,36 +148,36 @@ Les objectifs de la journée sont faire la gestion des accès, la création d'é
 
 **08h30:** Je finis de rédiger les scénarios prévus et je commence développer la gestion des accès
 
-**9h00:** Je finis de développer la gestion des accès et je commence à développer la création d'événement.
+**9h00:** Je finis de développer la gestion des accès et je commence à développer la création d'événements.
 
 **11h30:** J'ai un entretien avec Mme Mota afin de voir mon avancement.
 
 Mme Mota est revenue sur la question :
-❔ Faut-il ajouter directement tous les utilisateurs d'un événements privé ou on peut en les ajouter en ajouter une partie et ajouter la suite après avoir créer l'événement ?
+❔ Faut-il ajouter directement tous les utilisateurs d'un événement privé ou on peut en les ajouter en ajouter une partie et ajouter la suite après avoir créer l'événement ?
 
-En me disant qu'il faudrait gérer le nombre maximal de personnes invités à l'événement privé de la même manière que les événements publiques c'est-à-dire qu'on est pas obligé d'inviter toutes les personnes dès la création de l'événement.
+En me disant qu'il faudrait gérer le nombre maximal de personnes invitées à l'événement privé de la même manière que les événements publics c'est-à-dire qu'on n'est pas obligé d'inviter toutes les personnes dès la création de l'événement.
 
 **11h55:** Fin de l'entretien avec Mme Mota.
 
 **12h10:** Je prends ma pause midi.
 
-**13h00:** Je fini ma pause midi. Et je reprends la création d'un événement.
+**13h00:** Je finis ma pause midi. Et je reprends la création d'un événement.
 
-**14h50:** Je mets en pause le développement de la création d'événement pour ajouter une colonne pour le _salt_ dans la modifier la base de données afin d'avoir une meilleure sécurité dans le site.
+**14h50:** Je mets en pause le développement de la création d'événements pour ajouter une colonne pour le _salt_ dans la modifier la base de données afin d'avoir une meilleure sécurité dans le site.
 
 **15h00:** Je finis d'ajouter la colonne dans la base de données. Je vais l'implémenter dans l'inscription et pour la connexion.
 
-**15h20:** Je finis d'implémenter le _salt_ pour l'inscription et la connexion et je reprend la création d'événement.
+**15h20:** Je finis d'implémenter le _salt_ pour l'inscription et la connexion et je reprends la création d'événements.
 
-**15h50:** Je finis de développer et de tester la création d'événement publique.
+**15h50:** Je finis de développer et de tester la création d'événement public.
 
-**16h00:** Je commence à développer la création de la liste des invités pour un événements privés.
+**16h00:** Je commence à développer la création de la liste des invités pour un événement privé.
 
 **18h00:** Je finis ma journée.
 
 ### Bilan
 
-Aujourd'hui j'ai pu faire que la moitié de ce que je souhaitais car le style du site m'a pris beaucoup plus de temps que ce que j'avais prévu. Je n'ai pas pu finir la création de la liste des invités à un événement privé car lorsque ma modal pour ajouter des invités apparaît, les données se sont déjà envoyées. Je n'ai pas pu faire l'affichage des événements non plus donc je vais finir ces 2 tâches pour demain.
+Aujourd'hui j'ai pu faire que la moitié de ce que je souhaitais, car le style du site m'a pris beaucoup plus de temps que ce que j'avais prévu. Je n'ai pas pu finir la création de la liste des invités à un événement privé, car lorsque ma modal pour ajouter des invités apparaît, les données se sont déjà envoyées. Je n'ai pas pu faire l'affichage des événements non plus donc je vais finir ces 2 tâches pour demain.
 
 ---
 
@@ -185,11 +189,11 @@ Les objectifs de la journée sont finir la création de la liste pour des invit�
 
 ### Déroulement
 
-**08h00:** Je commence ma journée en travaillant sur la création de la liste des invités pour un événements privé.
+**08h00:** Je commence ma journée en travaillant sur la création de la liste des invités pour un événement privé.
 
 **9h00:** J'ai un entretien avec mes experts afin de voir si mon TPI se déroulait sans encombre.
 
-**09h10:** Fin de entretien avec mes experts.
+**09h10:** Fin de l'entretien avec mes experts.
 
 **10h20:** Je finis la création de la liste d'invités et je commence l'affichage des événements.
 
@@ -201,7 +205,7 @@ Les objectifs de la journée sont finir la création de la liste pour des invit�
 
 **12h40:** Je prends ma pause midi.
 
-**14h05:** Fin de ma pause midi et je reprend mon travail sur inscription à un événement ouvert.
+**14h05:** Fin de ma pause midi et je reprends mon travail sur inscription à un événement ouvert.
 
 **15h35:** Je finis la logique de l'inscription à un événement ouvert.
 
@@ -211,7 +215,7 @@ Les objectifs de la journée sont finir la création de la liste pour des invit�
 
 Aujourd'hui j'ai presque fait tout ce que j'avais prévu.
 
-Avec Tanguy Cavagna (un camarde de classe) on a réussis à résoudre le problème avec la liste d'invités en utilisant un _fetch()_
+Avec Tanguy Cavagna (un camarade de classe) on a réussi à résoudre le problème avec la liste d'invités en utilisant un _fetch()_
 
 ```javascript
 return fetch("url", {
@@ -237,7 +241,7 @@ $.ajax({
 
 Car avec un appel ajax on ne peut pas mettre le _success:_ en asynchrone alors qu'avec un _fetch_ on peut le mettre en asynchrone.
 
-Mais je n'ai pas pu finir à 100% l'inscription à un événement publique, j'ai réussi à faire toutes la logique mais j'ai pas réussi à faire un style qui fonctionne une fois qu'on c'est inscrit à plusieurs événements, donc je vais finir cette tâche demain.
+Mais je n'ai pas pu finir à 100% l'inscription à un événement public, j'ai réussi à faire toute la logique mais je n'ai pas réussi à faire un style qui fonctionne une fois qu'on c'est inscrit à plusieurs événements, donc je vais finir cette tâche demain.
 
 ---
 
@@ -245,16 +249,16 @@ Mais je n'ai pas pu finir à 100% l'inscription à un événement publique, j'ai
 
 ### Objectifs
 
-Les objectifs de la journée sont de finir inscription à un événement publique et commencer à faire la page pour la gestion des événements.
+Les objectifs de la journée sont de finir inscription à un événement public et commencer à faire la page pour la gestion des événements.
 
 ### Déroulement
 
-**08h00:** Je commence ma journée en reprenant le travail sur inscription à un événement publique.
+**08h00:** Je commence ma journée en reprenant le travail sur inscription à un événement public.
 
 **8h25:** Je finis l'inscription à un événement privé. Et je commence l'affichage de la page de gestion des événements.
 
 **11h00:** J'ai un entretien avec Mme Mota afin de voir mon avancement.
-Durant cet entretien Mme Mota m'a demandé de faire un logo afin d'avoir une identité visuel pour mon site.
+Durant cet entretien Mme Mota m'a demandé de faire un logo afin d'avoir une identité visuelle pour mon site.
 
 **11h40:** Fin de l'entretien avec Mme Mota et je reprends mon travail sur la page gestion des événements.
 
@@ -264,13 +268,13 @@ Durant cet entretien Mme Mota m'a demandé de faire un logo afin d'avoir une ide
 
 **15h00:** Je pars pour mon rendez-vous chez le médecin.
 
-**16h20:** Retour de chez le médecin. Et me remets à travailler sur la page de gestion des événements.
+**16h20:** Retour de chez le médecin. Et je me remets à travailler sur la page de gestion des événements.
 
 **18h30:** Je finis la page de gestion des événements ce qui finis ma journée, j'ai travaillé plus tard afin rattraper le fait que j'ai eu un rendez-vous chez le médecin.
 
 ### Bilan
 
-Aujourd'hui j'ai pu faire tout ce que j'avais prévus, ce qui est une première depuis le début de mon TPI.
+Aujourd'hui j'ai pu faire tout ce que j'avais prévu, ce qui est une première depuis le début de mon TPI.
 
 ---
 
@@ -278,22 +282,22 @@ Aujourd'hui j'ai pu faire tout ce que j'avais prévus, ce qui est une première 
 
 ### Objectifs
 
-Les objectifs de la journée sont faire une page entière avec les informations de l'événements (actuellement il n'y a qu'une carte avec les informations), et faire la validation à un événement.
+Les objectifs de la journée sont faire une page entière avec les informations de l'événement (actuellement il n'y a qu'une carte avec les informations), et faire la validation à un événement.
 
 ### Déroulement
 
-**08h00:** Je commence ma journée en travaillant sur la page qui contient les information de l'événement.
+**08h00:** Je commence ma journée en travaillant sur la page qui contient les informations de l'événement.
 
-**11h00:** J'ai un entretien avec Mme Mota afin de voir mon avancement et de me faire un retour sur la documentation intermédiaire rendu vendredi.
+**11h00:** J'ai un entretien avec Mme Mota afin de voir mon avancement et de me faire un retour sur la documentation intermédiaire rendue vendredi.
 
-Lors de cette entretien on est revenu sur le rendu intermédiaire que j'ai rendu vendredi 29 mai.
+Lors de cet entretien, on est revenu sur le rendu intermédiaire que j'ai rendu vendredi 29 mai.
 Dans les points que je dois revoir dans ma documentation sont:
 
 - La catégorie _Structure du code_(page 5 de l'énoncé).
 - Ajout un Rapport fichier rapport de bug pour documenter mes tests (fails)
-- Faire en sorte les émoticônes du suivis journalier de tests soit plus visible
-- Lister tous les acronymes + leurs signification cités dans le glossaire
-- Mettre plus en évidences que j'utilise les outils la méthodologie agile (backlog, Gherkins, rédaction des scénarios de test avant d'implémenter dans l'app)
+- Faire en sorte les émoticônes du suivi journalier de tests soit plus visibles
+- Lister tous les acronymes + leurs significations citées dans le glossaire
+- Mettre plus en évidence que j'utilise les outils la méthodologie agile (backlog, Gherkins, rédaction des scénarios de test avant d'implémenter dans l'app)
 - Mieux documenter les difficultés
 - Ajouter des légendes au tableau et aux images
 
@@ -307,11 +311,11 @@ Dans les points que je dois revoir dans ma documentation sont:
 
 **15h40:** Je finis de rédiger les scénarios et je commence à implémenter la fonctionnalité.
 
-**17h30:** J'ai finis d'implémenter les mails lors de l'inscription à un événement et de le tester. Et je finis ma journée.
+**17h30:** J'ai fini d'implémenter les mails lors de l'inscription à un événement et de le tester. Et je finis ma journée.
 
 ### Bilan
 
-Aujourd'hui j'ai pu faire toutes les tâches planifié, j'ai eu du mal avec l'envoie de mail car je n'ai pas beaucoup utilisé mail lors de ma formation mais grâce à la documentation de PHPMailer j'ai pu y arriver. J'ai eu un problème avec l'envoie de mail car une fois que le mail c'était envoyé le message de validation du call ajax n'apparaissais plus et il n'y avait l'actualisation de la page non plus.
+Aujourd'hui j'ai pu faire toutes les tâches planifiées, j'ai eu du mal avec l'envoi de mail car je n'ai pas beaucoup utilisé mail lors de ma formation mais grâce à la documentation de PHPMailer j'ai pu y arriver. J'ai eu un problème avec l'envoi de mail car une fois que le mail c'était envoyé le message de validation du call ajax n'apparaissait plus et il n'y avait l'actualisation de la page non plus.
 Mais en recherchant sur stackoverflow j'ai pu trouver ou était mon problème.
 
 ```php
@@ -320,7 +324,7 @@ Mais en recherchant sur stackoverflow j'ai pu trouver ou était mon problème.
     $mail->SMTPDebug = 3;
 ```
 
-De base la variable STMPDebug est initialisé à `3`, ce qui veut dire qu'un message de validation est envoyé côté client et côté serveur et ceci interférai avec:
+De base la variable STMPDebug est initialisée à `3`, ce qui veut dire qu'un message de validation est envoyé côté client et côté serveur et ceci interférai avec:
 
 ```php
   echo json_encode([
@@ -334,7 +338,7 @@ Dans ma console JavaScript il y avait ceci qui était affiché avec mon message 
 
 <img src="./assets/phpMailerError.PNG" height="600">
 
-Mais du coup après être allé sur stackoverflow:
+Mais du coup après être allé sur StackOverflow :
 
 ```php
   try {
@@ -344,7 +348,7 @@ Mais du coup après être allé sur stackoverflow:
 
 J'ai pu comprendre qu'en initialisant `STMPDebug` à 0 il n'y aurait plus de problème avec mon call ajax.
 
-Aussi aujourd'hui lors de entretien avec Mme Mota elle m'a fait un retour sur la documentation intermédiaire et je me suis rendu compte que j'avais mal compris la partie _Structure du code_ dans l'énoncé (page 5), Mme Mota a passé environ 30 minutes à m'expliquer ce qui était attendu.
+Aussi aujourd'hui lors de l'entretien avec Mme Mota elle m'a fait un retour sur la documentation intermédiaire et je me suis rendu compte que j'avais mal compris la partie _Structure du code_ dans l'énoncé (page 5), Mme Mota a passé environ 30 minutes à m'expliquer ce qui était attendu.
 
 [Cliquez ici pour voir la documentation de PHPMailer](https://github.com/PHPMailer/PHPMailer/blob/master/README.md)
 
@@ -362,7 +366,7 @@ Les objectifs de la journée sont d'implémenter le rappel de la participation �
 
 **08h35:** Je finis de rédiger les scénarios du rappel à un événement, de la suppression d'un événement et de l'affichage de la profile et je commence à implémenter le mail de rappel de la participation à un événement.
 
-**10h35:** Je finis d'implémenter et de tester l'envois du mail qui rappel qu'un événement à lieu le lendemain. Et au lieu de faire la suppression d'un événement.
+**10h35:** Je finis d'implémenter et de tester l'envoi du mail qui rappelle qu'un événement a lieu le lendemain. Et au lieu de faire la suppression d'un événement.
 
 **11h05:** Je finis d'écrire les scénarios et je commence à implémenter la page profile.
 
@@ -377,7 +381,7 @@ Les objectifs de la journée sont d'implémenter le rappel de la participation �
 **15h15:** Je finis de rédiger les scénarios de tests de la modification d'événement et je me mets à l'implémenter dans le site.
 
 **16h00:** J'ai un entretien avec Mme Mota afin de voir mon avancement.
-Lors de cette entretien j'ai pu demander à Mme Mota si je pouvais modifier la structure du site afin que ce soit plus pratiquer pour moi. Elle a accepté car aucune ressource n'est impactée par ma modification.
+Lors de cet entretien j'ai pu demander à Mme Mota si je pouvais modifier la structure du site afin que ce soit plus pratiquer pour moi. Elle a accepté car aucune ressource n'est impactée par ma modification.
 On a aussi vu que ma structure des scénarios était fausse, j'oubliais de mettre la partie **quand** dans la partie _Situation_.
 
 **17h20:** Fin de l'entretien avec Mme Mota et je finis ma journée en même temps.
@@ -386,11 +390,11 @@ On a aussi vu que ma structure des scénarios était fausse, j'oubliais de mettr
 
 Aujourd'hui j'ai pu faire ce qui était prévu sans rencontrer de problème. C'est lors de l'entretien avec Mme Mota qu'on s'est rendu compte que la rédaction de mes scénarios était fausse donc je vais les corriger demain.
 
-Au début mes scénarios devait ressembler à ceci :
+Au début mes scénarios ressemblaient à ceci :
 
 ![scenario_valide](./assets/scenario_valide.png)
 
-Mais à la fin il ressemblais à ceci :
+Mais à la fin il ressemblaient à ceci :
 
 ![secnario_invalide](./assets/scenario_invalide.png)
 
@@ -400,20 +404,19 @@ Mais à la fin il ressemblais à ceci :
 
 ### Objectifs
 
-Les objectifs de la journée sont de finir la modification d'un événements, corriger la rédaction des scénarios et commencer la suppression du profile.
-
+Les objectifs de la journée sont de finir la modification d'un événement, corriger la rédaction des scénarios et commencer la suppression du profile.
 ### Déroulement
 
 **08h00:** Je commence ma journée en travaillant sur la correction des scénarios rédigés.
 
 **09h00:** J'ai un entretien avec mes experts afin de voir mon avancement dans mon TPI.
 
-**9h10:** Fin de l'entretien. et je me remets à travailler sur la correction des scénarios.
+**9h10:** Fin de l'entretien et je me remets à travailler sur la correction des scénarios.
 
 **10h10:** Je finis de corriger les scénarios de tests et je reprends la modification d'un événement.
 
 **10h50:** Je demande à Mme Mota:
-❔ Pour la modification d'un événement est-ce qu'on peut le passer de privé à publique ou de publique à privé ?
+❔ Pour la modification d'un événement est-ce qu'on peut le passer de privé à public ou de public à privé ?
 
 > Réponse: Ce n'est pas dans le cahier de charges.
 
@@ -421,7 +424,7 @@ Les objectifs de la journée sont de finir la modification d'un événements, co
 
 **13h15:** Je finis ma pause midi et je reprends l'implémentation de la modification d'un événement.
 
-**14h30:** Je finis l'implémentation et les test de la modification d'un événement et je commence la rédaction de la suppression du profil.
+**14h30:** Je finis l'implémentation et les tests de la modification d'un événement et je commence la rédaction de la suppression du profil.
 
 **14h55:** Je finis la rédaction des scénarios pour la suppression du profil et je commence à implémenter la suppression du profile.
 
@@ -429,7 +432,7 @@ Les objectifs de la journée sont de finir la modification d'un événements, co
 
 ### Bilan
 
-Aujourd'hui j'ai pu faire toutes les tâches qui étaient prévus. Je n'ai pas eu de point bloquant mais une interrogation sur la modification des événements car je ne savais pas si on pouvais passer un événement de publique à privé et inversément mais Mme Mota m'a dis que ce n'était pas dans le cahier des charges.
+Aujourd'hui j'ai pu faire toutes les tâches qui étaient prévues. Je n'ai pas eu de point bloquant, mais une interrogation sur la modification des événements, car je ne savais pas si on pouvais passer un événement de public à privé et inversément, mais Mme Mota m'a dit que ce n'était pas dans le cahier des charges.
 
 ---
 
@@ -459,11 +462,11 @@ Lors de l'entretien j'ai pu demandé à Mme Mota:
 
 **14h05:** Je finis ma pause midi et je reprends la modification.
 
-**14h50:** Je finis de d'implémenter et de tester la modification et je reprends la modification des événements car je n'avais pas fait en sorte que l'on puisse changer l'image de l'événement.
+**14h50:** Je finis d'implémenter et de tester la modification et je reprends la modification des événements car je n'avais pas fait en sorte que l'on puisse changer l'image de l'événement.
 
-**15h50:** Je finis la modification des événements et je rejoute une quatrième zone à la page `Gérer mes événements` afin d'avoir une partie qui contient tous les événements qu'on a crée.
+**15h50:** Je finis la modification des événements et je rajoute une quatrième zone à la page `Gérer mes événements` afin d'avoir une partie qui contient tous les événements qu'on a crée.
 
-**16h30:** Je finis l'implémentation de la quatrième zone. Et je relis mon énoncé du TPI afin d'être sûr que tous ce qui est demandé est complété.
+**16h30:** Je finis l'implémentation de la quatrième zone. Et je relis mon énoncé du TPI afin d'être sûr que tout ce qui est demandé est complété.
 
 **16h40:** Je finis de relire mon énoncé et je vois qu'il me manque l'affichage de la liste des invités pour le créateur d'un événement privé alors, je commence à faire l'affichage de la liste des invités pour le créateur d'un événement privé.
 
@@ -485,7 +488,7 @@ Aujourd'hui j'ai pu finir l'implémentation des fonctionnalités et j'ai même p
 
 ### Objectifs
 
-Les objectifs de la journée sont de faire un test de tous le site afin d'être sûr que toutes les fonctionnalités fonctionnent, de faire la partie structure dans la documentation.
+Les objectifs de la journée sont de faire un test de tout le site afin d'être sûr que toutes les fonctionnalités fonctionnent, de faire la partie structure dans la documentation.
 
 ### Déroulement
 
@@ -503,11 +506,11 @@ Les objectifs de la journée sont de faire un test de tous le site afin d'être 
 
 **11h35:** Fin de l'entretien avec Mme Mota. Et je reprends la structure de la rédaction du projet.
 
-**13h35:** Je finis la rédaction de la de la structure du projet et je prends ma pause midi.
+**13h35:** Je finis la rédaction de la structure du projet et je prends ma pause midi.
 
-**14h05:** Je finis ma pause du midi et je mts le schéma de la base de données.
+**14h05:** Je finis ma pause du midi et je mets le schéma de la base de données dans la documentation.
 
-**14h35:** Je finis de mettre à jour la base de données dans la docuementation et je commence la description de l'application.
+**14h35:** Je finis de mettre à jour la base de données dans la documentation et je commence la description de l'application.
 
 **15h50:** Je finis de mettre la description de l'application et je commence à rédiger l'analyse des fonctionnalités majeures.
 
@@ -515,7 +518,7 @@ Les objectifs de la journée sont de faire un test de tous le site afin d'être 
 
 ### Bilan
 
-Aujourd'hui j'ai pu faire le test de toute l'application WEB et corriger les quelques bugs que j'ai trouvé, j'ai aussi bien avancé dans ma documentation mais je n'ai pas eu le temps de finir la rédaction des fonctionnalités majeures donc je vais finir cette tâche demain.
+Aujourd'hui j'ai pu faire le test de toute l'application WEB et corriger les quelques bugs que j'ai trouvés, j'ai aussi bien avancé dans ma documentation mais je n'ai pas eu le temps de finir la rédaction des fonctionnalités majeures donc je vais finir cette tâche demain.
 
 ---
 
@@ -523,7 +526,7 @@ Aujourd'hui j'ai pu faire le test de toute l'application WEB et corriger les que
 
 ### Objectifs
 
-Les objectifs de la journée sont finir la documenation technique, la documentation utilisateur et rendre le porjet.
+Les objectifs de la journée sont finir la documentation technique, la documentation utilisateur et rendre le projet.
 
 ### Déroulement
 
@@ -531,8 +534,34 @@ Les objectifs de la journée sont finir la documenation technique, la documentat
 
 **8h15:** N'arrivant pas à avancer sur ce sujet je décide de passer à la rédaction de la conclusion.
 
-**11h00:** J'ai un entretien avec Mme Mota afin de voir mon avancement.
+**10h15:** Je finis de rédiger la conclusion et rédige le glossaire.
+
+**11h00:** Je finis de rédiger le glossaire et je rédige la documentation utilisateur.
+
+**12h00:** J'ai un entretien avec Mme Mota afin de voir mon avancement.
+
+**12h20:** Je mets en pause la rédaction du manuel utilisateur pour reprendre la rédaction l'analyse des fonctionnalités majeures.
+
+**12h50:** Je finis la rédaction de l'analyse des fonctionnalités majeures et je reprends la documentation utlilsateur.
+
+**13h00:** Je prends ma pause midi.
+
+**13h30:** Je finis ma pause midi. Et je reprends la rédaction de la documentation utilisateur.
+
+**14h45:** En voulant faire une capture d'écran pour la suppression du profile un message d'erreur est apparu. Et je commence à résoudre le bug.
+
+**15h00:** Je finis de corriger le bug et je reprends la documentation utilisateur.
+
+**15h05:** Je finis la documentation utilisateur et je commence la correction de l'orthographe et de la grammaire pour les documentations et le journal de bord.
+
+**16h10:** Je finis la correction des documentations et du journal de bord et, je commene à exporter mon code en pdf.
+
+**16h40:** Je finis de mettre le code enpdf et je coemmence à assembler la documentation technique avec l'énoncé, le journal de bord et le code source.
+
+**17h00:** Je rends la documentation technique et le manuel utilisateur à mes experts.
 
 ### Bilan
+
+Cette journée aura été stressantes pour moi car, j'ai tout juste eu le temps de finaliser le projet.
 
 ---

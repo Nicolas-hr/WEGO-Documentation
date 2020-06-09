@@ -126,25 +126,28 @@ Faire un README.md pour chaque dépôt Git
 
 ## Vendredi 5 juin
 
-A18 11
-A19 18
+[✔️] A18 11
+[✔️] A19 18
 
 Après relecture de l'énoncé
 A18 9 j'ai demandé ce que voulais dire le point
 
-Scénario 4.4
+[✔️] Scénario 4.4
 
-On peut modifier l'image d'un événement
-On peut modifier le mot de passe
+[✔️] On peut modifier l'image d'un événement
+[✔️] On peut modifier le mot de passe
 
-On peut pas modifier d'event privé
-On peut pas ajouter des invités après la création.
+[✔️] On peut modifier d'event privé
+[✔️] On peut ajouter des invités après la création.
 
-Faire une 4ème zone pour la modif de tous les événements
+[✔️] Faire une 4ème zone pour la modif de tous les événements
 
 Nice To Have:
 
 - passer un événement de publlique à privé
+
+
+Faire une analyse des différences entre les 2 plannings
 
 ## Mercredi 17 juin
 
